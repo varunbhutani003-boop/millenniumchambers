@@ -1,0 +1,71 @@
+{
+  "varun-bhutani-advocate-gurugram": {
+    "title": "Advocate Varun Bhutani | Corporate & Startup Lawyer in Gurugram",
+    "description": "Varun Bhutani is an advocate (Bar Council of Delhi, 2018) and Independent Partner of Millennium Chambers, Gurugram, advising startups on corporate, DPDP, labour and fundraising law.",
+    "type": "person",
+    "nav": "Advocate Varun Bhutani",
+    "image": "/assets/img/varun-bhutani-advocate.jpg",
+    "image_alt": "Advocate Varun Bhutani, Millennium Chambers, Gurugram"
+  },
+  "labour-codes-startups-india-guide": {
+    "title": "India's Labour Codes: A Startup Guide (2025 Rollout) | Millennium Chambers",
+    "description": "What the four Labour Codes in force from 21 November 2025 mean for Indian startups: appointment letters, fixed-term gratuity, gig worker contributions, wages and a compliance checklist.",
+    "type": "article",
+    "nav": "Labour Codes",
+    "image": "/assets/img/founders-meeting.webp",
+    "image_alt": "Startup team at work in an office"
+  },
+  "startup-insights": {
+    "title": "Startup Insights: Weekly Indian Funding & Regulatory Updates | Millennium Chambers",
+    "description": "Weekly roundup of Indian startup funding rounds, SEBI, RBI, MCA and CERT-In regulatory changes, with a practical founder takeaway from a Gurugram startup lawyer.",
+    "type": "article",
+    "nav": "Startup Insights"
+  },
+  "startup-corporate-law-practice-areas-gurugram": {
+    "title": "Practice Areas: Startup, Corporate & Regulatory Law in Gurugram | Millennium Chambers",
+    "description": "Areas of practice at Millennium Chambers, Gurugram: startups and venture capital, commercial contracts, DPDP Act, Labour Codes, consumer protection, trademarks and real estate leasing.",
+    "type": "page",
+    "nav": "Practice Areas"
+  },
+  "trademark-registration-startups-india": {
+    "title": "Trademark Registration for Startups in India: Step-by-Step | Millennium Chambers",
+    "description": "How Indian startups register a trademark: searching, choosing classes, filing Form TM-A, examination replies, opposition and renewal, with a practical founder checklist.",
+    "type": "article"
+  },
+  "esop-startups-india-legal-guide": {
+    "title": "ESOPs for Startups in India: Legal Basics, Rule 12 & Tax | Millennium Chambers",
+    "description": "ESOP law for Indian private companies: Section 62(1)(b) and Rule 12, vesting and exercise rules, DPIIT startup relaxations, taxation and a founder checklist.",
+    "type": "article"
+  },
+  "dpdp-act-compliance-startups-india": {
+    "title": "DPDP Act Compliance for Startups in India: Timeline & Checklist | Millennium Chambers",
+    "description": "DPDP Act 2023 and DPDP Rules 2025 for Indian startups: phased deadlines up to 13 May 2027, consent and notice duties, user rights, penalties up to Rs 250 crore and a checklist.",
+    "type": "article"
+  },
+  "founders-agreement-startups-india": {
+    "title": "Founders' Agreement for Startups in India: What to Put in Writing | Millennium Chambers",
+    "description": "What Indian co-founders should agree in writing: equity split and vesting, roles, IP assignment, non-compete limits, exits and disputes, and making terms binding via the AoA.",
+    "type": "article"
+  },
+  "term-sheet-startups-india": {
+    "title": "Term Sheets for Startups in India: Key Clauses Explained | Millennium Chambers",
+    "description": "The term sheet clauses Indian founders must understand: valuation and ESOP pool, liquidation preference, anti-dilution, board and consent rights, vesting and the Companies Act/FEMA steps.",
+    "type": "article"
+  },
+  "disclaimer": {
+    "title": "Disclaimer | Millennium Chambers, Gurugram",
+    "description": "Bar Council of India disclaimer for the Millennium Chambers website: information only, no solicitation, no legal advice and no advocate-client relationship.",
+    "type": "page",
+    "nav": "Disclaimer"
+  },
+  "privacy-policy": {
+    "title": "Privacy Policy | Millennium Chambers, Gurugram",
+    "description": "How Millennium Chambers collects, uses, stores and protects information shared through this website, and how to contact us about your data.",
+    "type": "page"
+  },
+  "terms-of-use": {
+    "title": "Terms of Use | Millennium Chambers, Gurugram",
+    "description": "Terms governing use of the Millennium Chambers website, including permitted use, no professional engagement, liability and governing law.",
+    "type": "page"
+  }
+}
