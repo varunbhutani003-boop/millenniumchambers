@@ -24,6 +24,10 @@ Compliance under the four Labour Codes, gig and platform-worker arrangements, co
 
 E-commerce rules compliance, consumer notices and complaints, advertising and dark-pattern guidelines, refund and grievance-redressal policies.
 
+### Food, nutraceutical and FSSAI regulatory
+
+Regulatory work for food, health-supplement and nutraceutical brands under the Food Safety and Standards Act, 2006: label and pack reviews against the FSSAI labelling and display regulations, mapping health and nutrient claims to those permitted under the Nutraceuticals and Advertising & Claims regulations, "natural", "100%" and logo-use checks across a product range, product approval routes for non-specified claims, replies to FSSAI notices and improvement notices, and claims review for e-commerce listings and advertising in line with ASCI and CCPA guidance.
+
 ### Intellectual property
 
 Trademark searches, filing, prosecution and opposition, brand protection for startups, and IP assignment and licensing clauses in founder and employee agreements.

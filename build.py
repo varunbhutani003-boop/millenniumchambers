@@ -71,7 +71,7 @@ def org_schema():
                     "addressRegion": FIRM["region"], "postalCode": FIRM["pin"], "addressCountry": "IN"},
         "areaServed": [{"@type": "City", "name": "Gurugram"}, {"@type": "Country", "name": "India"}],
         "knowsAbout": ["Startup law", "Venture capital transactions", "Commercial contracts", "DPDP Act 2023",
-                       "Labour Codes", "Gig worker compliance", "Consumer protection", "Trademarks", "Commercial leasing"],
+                       "Labour Codes", "Gig worker compliance", "Consumer protection", "FSSAI food and nutraceutical regulation", "Trademarks", "Commercial leasing"],
         "founder": {"@id": DOMAIN + "/varun-bhutani-advocate-gurugram#varun"},
         "sameAs": [FIRM["linkedin_firm"], FIRM["youtube"]],
     }
@@ -322,6 +322,7 @@ def build_home():
         ("Labour & gig workforce", "The four Labour Codes, gig and platform-worker compliance, employment policies."),
         ("Data protection & technology", "DPDP Act, 2023 compliance, privacy policies and platform terms."),
         ("Consumer protection", "Consumer notices, complaints and e-commerce compliance."),
+        ("FSSAI & nutraceuticals", "Label and claims reviews, FSSAI notice replies and product-range compliance for food and supplement brands."),
         ("Intellectual property", 'Trademark filing, prosecution and opposition.'),
         ("Real estate & leasing", "Commercial leases and leave-and-licence agreements."),
         ("Notices & disputes", "Legal notices, recovery and arbitration support."),
@@ -336,7 +337,7 @@ def build_home():
         f'<span class="play" aria-hidden="true"></span><strong>{esc(t)}</strong></a></li>' for v, t in videos)
     faq = [
         ("Where is Millennium Chambers located?", "Millennium Chambers is at 325H, Sector 38, Gurugram, Haryana 122001, and works with founders and companies across India."),
-        ("What kind of matters does Millennium Chambers handle?", "Corporate, commercial and regulatory work for startups and growing companies: incorporation and fundraising documents, commercial contracts, DPDP Act and Labour Code compliance, consumer protection, trademarks, commercial leases, legal notices and arbitration support."),
+        ("What kind of matters does Millennium Chambers handle?", "Corporate, commercial and regulatory work for startups and growing companies: incorporation and fundraising documents, commercial contracts, DPDP Act and Labour Code compliance, consumer protection, FSSAI labelling and claims for food and nutraceutical brands, trademarks, commercial leases, legal notices and arbitration support."),
         ("Who leads Millennium Chambers?", "Advocate Varun Bhutani, enrolled with the Bar Council of Delhi since December 2018, is the Independent Partner. He has worked in-house with technology and consumer companies, most recently as Head of Legal at YesMadam."),
         ("When do the main DPDP Act obligations apply?", "Under the DPDP Rules, 2025, consent manager rules apply from 13 November 2026 and the core obligations for data fiduciaries apply from 13 May 2027."),
     ]
