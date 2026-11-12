@@ -34,14 +34,14 @@ header.site{background:var(--night);position:sticky;top:0;z-index:20;box-shadow:
 .menu{display:none;background:none;border:1px solid #555;color:#fff;font:600 14px var(--sans);padding:7px 12px;cursor:pointer}
 
 /* page head */
-.pagehead{background:linear-gradient(rgba(21,23,26,.86),rgba(21,23,26,.9)),url(/millenniumchambers/assets/img/law-books.webp) center 30%/cover;color:#fff;padding:46px 0 42px}
+.pagehead{background:linear-gradient(rgba(21,23,26,.86),rgba(21,23,26,.9)),url(/assets/img/law-books.webp) center 30%/cover;color:#fff;padding:46px 0 42px}
 .pagehead h1{color:#fff;max-width:880px;margin-bottom:.1em}
 .pagehead h1::after{content:"";display:block;width:56px;height:3px;background:var(--gold);margin-top:18px}
 .pagehead .lead{color:#d9d6cf}
 .crumbs{font-size:14px;color:#b9b5ad}.crumbs a{color:#d9c39a}
 
 /* home hero */
-.hero{position:relative;color:#fff;padding:110px 0 120px;background:linear-gradient(100deg,rgba(15,16,18,.94) 0%,rgba(15,16,18,.78) 48%,rgba(15,16,18,.35) 100%),url(/millenniumchambers/assets/img/gurugram-night.webp) center/cover}
+.hero{position:relative;color:#fff;padding:110px 0 120px;background:linear-gradient(100deg,rgba(15,16,18,.94) 0%,rgba(15,16,18,.78) 48%,rgba(15,16,18,.35) 100%),url(/assets/img/gurugram-night.webp) center/cover}
 .hero h1{color:#fff;max-width:760px}
 .hero .lead{font-size:20px;max-width:640px;color:#e6e2da}
 .eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:.14em;font-size:13.5px;font-weight:600;margin:0}
@@ -68,7 +68,7 @@ header.site{background:var(--night);position:sticky;top:0;z-index:20;box-shadow:
 .cards a:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.07)}
 .cards strong{display:block;font-family:var(--serif);font-size:19px;margin-bottom:6px}
 .cards span{color:var(--muted);font-size:15.5px;line-height:1.5}
-.guides-band{background:linear-gradient(rgba(243,240,233,.94),rgba(243,240,233,.94)),url(/millenniumchambers/assets/img/founders-meeting.webp) center/cover}
+.guides-band{background:linear-gradient(rgba(243,240,233,.94),rgba(243,240,233,.94)),url(/assets/img/founders-meeting.webp) center/cover}
 .date{color:var(--muted);font-size:15px;margin-top:-6px}
 .note{font-size:14.5px;color:var(--muted)}
 .videos{list-style:none;padding:0;margin:0;display:grid;gap:18px}
@@ -78,7 +78,7 @@ header.site{background:var(--night);position:sticky;top:0;z-index:20;box-shadow:
 .play{position:absolute;left:50%;top:38%;width:62px;height:44px;margin:-22px 0 0 -31px;background:rgba(20,20,20,.82);border-radius:10px}
 .play::after{content:"";position:absolute;left:25px;top:13px;border-left:16px solid #fff;border-top:9px solid transparent;border-bottom:9px solid transparent}
 .video:hover .play{background:#c4302b}
-.contact-band{background:linear-gradient(rgba(243,240,233,.93),rgba(243,240,233,.96)),url(/millenniumchambers/assets/img/gurugram-sunset.webp) center bottom/cover}
+.contact-band{background:linear-gradient(rgba(243,240,233,.93),rgba(243,240,233,.96)),url(/assets/img/gurugram-sunset.webp) center bottom/cover}
 address{font-style:normal}
 .contact{font-size:17.5px;line-height:1.9}
 details{border-bottom:1px solid var(--line);padding:14px 0}
