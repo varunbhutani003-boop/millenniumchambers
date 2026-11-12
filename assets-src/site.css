@@ -147,3 +147,7 @@ footer li{margin:5px 0}
 .sidecard ul{list-style:none;margin:0;padding:0}.sidecard li{margin:7px 0}
 .sidecard.light a{color:var(--gold-d);text-decoration:none}.sidecard.light a:hover{text-decoration:underline}
 @media (max-width:980px){.content-grid{grid-template-columns:1fr;gap:10px}.side{position:static}}
+.bci-seen .bci{display:none}
+.bci .wrap{position:relative;padding-right:44px}
+.bci-x{position:absolute;right:12px;top:50%;transform:translateY(-50%);background:none;border:0;font-size:22px;line-height:1;color:var(--muted);cursor:pointer;padding:4px 8px}
+.bci-x:hover{color:var(--ink)}

@@ -122,6 +122,7 @@ def page(slug, title, description, body, h1, *, schema_extra=None, image=None, l
 <html lang="en-IN">
 <head>
 <meta charset="utf-8">
+<script>try{{if(sessionStorage.getItem("mc_bci_seen"))document.documentElement.className+=" bci-seen";else sessionStorage.setItem("mc_bci_seen","1")}}catch(e){{}}</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(description)}">
@@ -151,7 +152,7 @@ def page(slug, title, description, body, h1, *, schema_extra=None, image=None, l
 </head>
 <body class="{'home' if slug == '' else 'inner'}">
 <a class="skip" href="#main">Skip to main content</a>
-<div class="bci" role="note"><div class="wrap">{esc(BCI_SHORT)} <a href="/disclaimer">Read the disclaimer</a></div></div>
+<div class="bci" id="bci" role="note"><div class="wrap">{esc(BCI_SHORT)} <a href="/disclaimer">Read the disclaimer</a><button type="button" class="bci-x" aria-label="Close notice" onclick="document.getElementById('bci').remove()">&times;</button></div></div>
 <header class="site">
   <div class="wrap bar">
     <a class="brand" href="/" aria-label="Millennium Chambers home"><span class="mark" aria-hidden="true">MC</span><span>Millennium Chambers</span></a>

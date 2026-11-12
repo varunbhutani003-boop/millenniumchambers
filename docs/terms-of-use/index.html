@@ -2,6 +2,7 @@
 <html lang="en-IN">
 <head>
 <meta charset="utf-8">
+<script>try{if(sessionStorage.getItem("mc_bci_seen"))document.documentElement.className+=" bci-seen";else sessionStorage.setItem("mc_bci_seen","1")}catch(e){}</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Terms of Use | Millennium Chambers, Gurugram</title>
 <meta name="description" content="Terms governing use of the Millennium Chambers website, including permitted use, no professional engagement, liability and governing law.">
@@ -100,7 +101,7 @@
 </head>
 <body class="inner">
 <a class="skip" href="#main">Skip to main content</a>
-<div class="bci" role="note"><div class="wrap">As per Bar Council of India rules, this website is for information only and is not a solicitation or advertisement. <a href="/disclaimer">Read the disclaimer</a></div></div>
+<div class="bci" id="bci" role="note"><div class="wrap">As per Bar Council of India rules, this website is for information only and is not a solicitation or advertisement. <a href="/disclaimer">Read the disclaimer</a><button type="button" class="bci-x" aria-label="Close notice" onclick="document.getElementById('bci').remove()">&times;</button></div></div>
 <header class="site">
   <div class="wrap bar">
     <a class="brand" href="/" aria-label="Millennium Chambers home"><span class="mark" aria-hidden="true">MC</span><span>Millennium Chambers</span></a>
