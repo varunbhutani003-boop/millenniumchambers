@@ -11,6 +11,13 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(ROOT, "docs")
 DOMAIN = "https://www.millenniumchambers.in"
 TODAY = datetime.date.today().isoformat()
+# BASE is "" on the live domain; set BASE=/millenniumchambers to preview at <user>.github.io/millenniumchambers/
+BASE = os.environ.get("BASE", "").rstrip("/")
+
+def rebase(h):
+    if not BASE:
+        return h
+    return re.sub(r'(href|src|content)="/(?!/)', lambda m: f'{m.group(1)}="{BASE}/', h).replace("url(/assets", f"url({BASE}/assets")
 
 FIRM = {
     "name": "Millennium Chambers",
@@ -194,7 +201,7 @@ def write(slug, content):
     d = OUT if slug == "" else os.path.join(OUT, slug)
     os.makedirs(d, exist_ok=True)
     with open(os.path.join(d, "index.html"), "w") as f:
-        f.write(content)
+        f.write(rebase(content))
 
 def first_para(text):
     for block in text.split("\n\n"):
@@ -403,7 +410,15 @@ def build_extras(pages, titles):
               'Try the <a href="/">home page</a>, our <a href="/#guides">guides for founders</a> or '
               '<a href="/startup-insights">Startup Insights</a>.</p></div>', "Page not found", crumbs=False)
     nf = nf.replace('<meta name="robots" content="index, follow, max-image-preview:large">', '<meta name="robots" content="noindex">')
-    open(os.path.join(OUT, "404.html"), "w").write(nf)
+    open(os.path.join(OUT, "404.html"), "w").write(rebase(nf))
+    css = open(os.path.join(ROOT, "assets-src", "site.css")).read()
+    open(os.path.join(OUT, "assets", "site.css"), "w").write(rebase(css) if BASE else css)
+    if BASE:  # keep the preview out of Google
+        for root, _, files in os.walk(OUT):
+            for fn in files:
+                if fn.endswith(".html"):
+                    p = os.path.join(root, fn); h = open(p).read()
+                    open(p, "w").write(h.replace('content="index, follow, max-image-preview:large"', 'content="noindex"'))
 
 def main():
     pages = json.load(open(os.path.join(ROOT, "pages.json")))
