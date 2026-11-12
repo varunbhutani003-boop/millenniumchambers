@@ -136,7 +136,11 @@ def page(slug, title, description, body, h1, *, schema_extra=None, image=None, l
 {f'<meta property="og:image" content="{esc(og_img)}">' if og_img else ''}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#1c1d1f">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/icon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="manifest" href="/assets/site.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
@@ -423,7 +427,7 @@ def build_extras(pages, titles):
 def main():
     pages = json.load(open(os.path.join(ROOT, "pages.json")))
     for item in os.listdir(OUT):
-        if item in ("assets", "CNAME"):
+        if item in ("assets", "CNAME", "favicon.ico"):
             continue
         p = os.path.join(OUT, item)
         shutil.rmtree(p) if os.path.isdir(p) else os.remove(p)
