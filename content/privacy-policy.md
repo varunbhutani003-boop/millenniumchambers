@@ -18,7 +18,7 @@ We share personal data only with service providers we rely on to run this websit
 
 ### Your Rights and Grievance Redressal
 
-Subject to applicable law, you may ask to access, correct, update or erase your personal data, withdraw your consent, or nominate another person to exercise these rights on your behalf. For any such request or grievance, write to our Grievance Officer, Varun Bhutani, at [millenniumchambersindia@gmail.com](mailto:millenniumchambersindia@gmail.com). We will respond within the time prescribed by law. You may also approach the Data Protection Board of India.
+Subject to applicable law, you may ask to access, correct, update or erase your personal data, withdraw your consent, or nominate another person to exercise these rights on your behalf. For any such request or grievance, write to our Grievance Officer, Varun Bhutani, at [info@millenniumchambers.in](mailto:info@millenniumchambers.in). We will respond within the time prescribed by law. You may also approach the Data Protection Board of India.
 
 ### Changes to This Policy
 

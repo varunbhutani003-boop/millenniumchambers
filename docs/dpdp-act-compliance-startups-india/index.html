@@ -38,7 +38,7 @@
    "@id": "https://www.millenniumchambers.in/#firm",
    "name": "Millennium Chambers",
    "url": "https://www.millenniumchambers.in/",
-   "email": "millenniumchambersindia@gmail.com",
+   "email": "info@millenniumchambers.in",
    "telephone": "+91 9217648824",
    "description": "Gurugram-based legal practice advising founders and growing companies on corporate, commercial and regulatory matters.",
    "address": {
@@ -247,7 +247,7 @@
   <div class="sidecard">
     <p class="fhead">Millennium Chambers</p>
     <p>325H, Sector 38, Gurugram, Haryana 122001</p>
-    <p><a href="mailto:millenniumchambersindia@gmail.com">millenniumchambersindia@gmail.com</a><br><a href="https://wa.me/919217648824">WhatsApp +91 9217648824</a></p>
+    <p><a href="mailto:info@millenniumchambers.in">info@millenniumchambers.in</a><br><a href="https://wa.me/919217648824">WhatsApp +91 9217648824</a></p>
     <p class="note">Information only. Not a solicitation or legal advice.</p>
   </div>
   <div class="sidecard light">
@@ -263,7 +263,10 @@
     <div>
       <p class="fbrand">Millennium Chambers</p>
       <address>325H, Sector 38, Gurugram, Haryana 122001<br>
-      <a href="mailto:millenniumchambersindia@gmail.com">millenniumchambersindia@gmail.com</a><br>
+      General: <a href="mailto:info@millenniumchambers.in">info@millenniumchambers.in</a><br>
+      Partnerships: <a href="mailto:partner@millenniumchambers.in">partner@millenniumchambers.in</a><br>
+      Internships: <a href="mailto:internships@millenniumchambers.in">internships@millenniumchambers.in</a><br>
+      Billing: <a href="mailto:invoice@millenniumchambers.in">invoice@millenniumchambers.in</a><br>
       <a href="https://wa.me/919217648824">WhatsApp +91 9217648824</a></address>
     </div>
     <div>
@@ -283,5 +286,32 @@
   </div>
   <div class="wrap fine">As per Bar Council of India rules, this website is for information only and is not a solicitation or advertisement. Nothing on this site is legal advice, and viewing it or contacting us does not create an advocate-client relationship.</div>
 </footer>
+<button type="button" class="help-fab" aria-controls="help" aria-expanded="false" onclick="mcHelp()">Need help?</button>
+<div class="help" id="help" role="dialog" aria-modal="false" aria-labelledby="help-h" hidden>
+  <div class="help-top"><p id="help-h">How can we help?</p><button type="button" class="help-x" aria-label="Close" onclick="mcHelp(false)">&times;</button></div>
+  <form onsubmit="return mcSend(event)">
+    <label for="h-topic">Topic</label>
+    <select id="h-topic">
+      <option value="info@millenniumchambers.in">General query or legal help</option>
+      <option value="partner@millenniumchambers.in">Partnership or collaboration</option>
+      <option value="internships@millenniumchambers.in">Internship</option>
+      <option value="invoice@millenniumchambers.in">Billing or invoice</option>
+    </select>
+    <label for="h-name">Your name</label>
+    <input id="h-name" autocomplete="name" required>
+    <label for="h-msg">Your question</label>
+    <textarea id="h-msg" rows="4" required placeholder="Briefly describe what you need help with"></textarea>
+    <button type="submit" class="btn">Send by email</button>
+    <p class="help-alt">Or WhatsApp <a href="https://wa.me/919217648824">+91 9217648824</a>. Your email app will open with the message ready to send to <span id="h-to">info@millenniumchambers.in</span>.</p>
+    <p class="note">Please do not share confidential details here. Contacting us does not create an advocate-client relationship.</p>
+  </form>
+</div>
+<script>
+function mcHelp(o){var d=document.getElementById('help'),b=document.querySelector('.help-fab');if(o===undefined)o=d.hidden;d.hidden=!o;b.setAttribute('aria-expanded',o);if(o)document.getElementById('h-topic').focus();}
+document.addEventListener('change',function(e){if(e.target.id==='h-topic')document.getElementById('h-to').textContent=e.target.value;});
+function mcSend(e){e.preventDefault();var t=document.getElementById('h-topic'),n=document.getElementById('h-name').value.trim(),m=document.getElementById('h-msg').value.trim();
+var sub=t.options[t.selectedIndex].text+' - website query from '+n;
+location.href='mailto:'+t.value+'?subject='+encodeURIComponent(sub)+'&body='+encodeURIComponent(m+'\n\n'+n);return false;}
+</script>
 </body>
 </html>

@@ -151,3 +151,16 @@ footer li{margin:5px 0}
 .bci .wrap{position:relative;padding-right:44px}
 .bci-x{position:absolute;right:12px;top:50%;transform:translateY(-50%);background:none;border:0;font-size:22px;line-height:1;color:var(--muted);cursor:pointer;padding:4px 8px}
 .bci-x:hover{color:var(--ink)}
+
+.help-fab{position:fixed;right:20px;bottom:20px;z-index:40;background:var(--gold);color:#fff;border:0;border-radius:999px;padding:12px 20px;font:600 15.5px var(--sans);cursor:pointer;box-shadow:0 6px 18px rgba(0,0,0,.18)}
+.help-fab:hover{background:var(--gold-d)}
+.help{position:fixed;right:20px;bottom:76px;z-index:41;width:min(360px,calc(100vw - 40px));background:#fff;border:1px solid var(--line);border-top:3px solid var(--gold);box-shadow:0 12px 32px rgba(0,0,0,.18);padding:16px 18px;font-size:15.5px}
+.help[hidden]{display:none}
+.help-top{display:flex;justify-content:space-between;align-items:center}
+.help-top p{margin:0;font-family:var(--serif);font-size:19px;font-weight:600}
+.help-x{background:none;border:0;font-size:26px;line-height:1;cursor:pointer;color:var(--muted)}
+.help label{display:block;margin:10px 0 4px;font-weight:600;font-size:14.5px}
+.help input,.help select,.help textarea{width:100%;box-sizing:border-box;font:inherit;padding:8px 10px;border:1px solid var(--line);background:var(--paper)}
+.help .btn{margin-top:12px;width:100%;cursor:pointer;font:600 15.5px var(--sans)}
+.help-alt{font-size:14px;color:var(--ink-2);margin:10px 0 4px}
+.help .note{font-size:13px;margin:4px 0 0}

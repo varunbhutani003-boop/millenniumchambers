@@ -48,4 +48,4 @@ Plain-English guides on the legal topics above, written for Indian founders (gen
 
 About the author: [Advocate Varun Bhutani](/varun-bhutani-advocate-gurugram)
 
-Contact: 325H, Sector 38, Gurugram, Haryana 122001 | [millenniumchambersindia@gmail.com](mailto:millenniumchambersindia@gmail.com) | WhatsApp +91 9217648824. This page is for general information only and is not legal advice or a solicitation.
+Contact: 325H, Sector 38, Gurugram, Haryana 122001 | [info@millenniumchambers.in](mailto:info@millenniumchambers.in) | WhatsApp +91 9217648824. This page is for general information only and is not legal advice or a solicitation.

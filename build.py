@@ -25,7 +25,10 @@ FIRM = {
     "city": "Gurugram",
     "region": "Haryana",
     "pin": "122001",
-    "email": "millenniumchambersindia@gmail.com",
+    "email": "info@millenniumchambers.in",
+    "partner": "partner@millenniumchambers.in",
+    "internships": "internships@millenniumchambers.in",
+    "invoice": "invoice@millenniumchambers.in",
     "phone": "+91 9217648824",
     "wa": "https://wa.me/919217648824",
     "linkedin_firm": "https://www.linkedin.com/company/millennium-chambers-gurugram",
@@ -169,7 +172,10 @@ def page(slug, title, description, body, h1, *, schema_extra=None, image=None, l
     <div>
       <p class="fbrand">Millennium Chambers</p>
       <address>{FIRM['street']}, {FIRM['city']}, {FIRM['region']} {FIRM['pin']}<br>
-      <a href="mailto:{FIRM['email']}">{FIRM['email']}</a><br>
+      General: <a href="mailto:{FIRM['email']}">{FIRM['email']}</a><br>
+      Partnerships: <a href="mailto:{FIRM['partner']}">{FIRM['partner']}</a><br>
+      Internships: <a href="mailto:{FIRM['internships']}">{FIRM['internships']}</a><br>
+      Billing: <a href="mailto:{FIRM['invoice']}">{FIRM['invoice']}</a><br>
       <a href="{FIRM['wa']}">WhatsApp {FIRM['phone']}</a></address>
     </div>
     <div>
@@ -189,6 +195,33 @@ def page(slug, title, description, body, h1, *, schema_extra=None, image=None, l
   </div>
   <div class="wrap fine">{esc(BCI_SHORT)} Nothing on this site is legal advice, and viewing it or contacting us does not create an advocate-client relationship.</div>
 </footer>
+<button type="button" class="help-fab" aria-controls="help" aria-expanded="false" onclick="mcHelp()">Need help?</button>
+<div class="help" id="help" role="dialog" aria-modal="false" aria-labelledby="help-h" hidden>
+  <div class="help-top"><p id="help-h">How can we help?</p><button type="button" class="help-x" aria-label="Close" onclick="mcHelp(false)">&times;</button></div>
+  <form onsubmit="return mcSend(event)">
+    <label for="h-topic">Topic</label>
+    <select id="h-topic">
+      <option value="{FIRM['email']}">General query or legal help</option>
+      <option value="{FIRM['partner']}">Partnership or collaboration</option>
+      <option value="{FIRM['internships']}">Internship</option>
+      <option value="{FIRM['invoice']}">Billing or invoice</option>
+    </select>
+    <label for="h-name">Your name</label>
+    <input id="h-name" autocomplete="name" required>
+    <label for="h-msg">Your question</label>
+    <textarea id="h-msg" rows="4" required placeholder="Briefly describe what you need help with"></textarea>
+    <button type="submit" class="btn">Send by email</button>
+    <p class="help-alt">Or WhatsApp <a href="{FIRM['wa']}">{FIRM['phone']}</a>. Your email app will open with the message ready to send to <span id="h-to">{FIRM['email']}</span>.</p>
+    <p class="note">Please do not share confidential details here. Contacting us does not create an advocate-client relationship.</p>
+  </form>
+</div>
+<script>
+function mcHelp(o){{var d=document.getElementById('help'),b=document.querySelector('.help-fab');if(o===undefined)o=d.hidden;d.hidden=!o;b.setAttribute('aria-expanded',o);if(o)document.getElementById('h-topic').focus();}}
+document.addEventListener('change',function(e){{if(e.target.id==='h-topic')document.getElementById('h-to').textContent=e.target.value;}});
+function mcSend(e){{e.preventDefault();var t=document.getElementById('h-topic'),n=document.getElementById('h-name').value.trim(),m=document.getElementById('h-msg').value.trim();
+var sub=t.options[t.selectedIndex].text+' - website query from '+n;
+location.href='mailto:'+t.value+'?subject='+encodeURIComponent(sub)+'&body='+encodeURIComponent(m+'\\n\\n'+n);return false;}}
+</script>
 </body>
 </html>
 """
@@ -359,17 +392,21 @@ def build_home():
       <p><strong>Varun Bhutani, Independent Partner.</strong> BA LLB, Ramaiah College of Law, Bengaluru (2018). Nearly eight years in legal practice, most of them in-house with technology and consumer businesses, most recently as Head of Legal at YesMadam, and earlier with Zypp Electric, Ecom Express and OfBusiness/Oxyzo, after beginning in litigation practice before the Delhi High Court. Guest lecturer at law schools in the NCR.</p>
       <p><a class="more" href="/varun-bhutani-advocate-gurugram">Full profile of Advocate Varun Bhutani</a></p>
       <h3>Internships</h3>
-      <p>We take a small number of recent law graduates (not current students) for internships focused on legal research and regulatory compliance for startups (no litigation work). To apply, email your CV and a short note on your areas of interest to <a href="mailto:{FIRM['email']}">{FIRM['email']}</a> with the subject "Internship Application".</p>
+      <p>We take a small number of recent law graduates (not current students) for internships focused on legal research and regulatory compliance for startups (no litigation work). To apply, email your CV and a short note on your areas of interest to <a href="mailto:{FIRM['internships']}?subject=Internship%20Application">{FIRM['internships']}</a> with the subject "Internship Application".</p>
     </div>
     <div id="contact">
       <h2>Contact</h2>
       <address class="contact">
         {FIRM['street']}, {FIRM['city']}, {FIRM['region']} {FIRM['pin']}<br>
-        Email: <a href="mailto:{FIRM['email']}">{FIRM['email']}</a><br>
+        General enquiries: <a href="mailto:{FIRM['email']}">{FIRM['email']}</a><br>
+        Partnerships &amp; collaborations: <a href="mailto:{FIRM['partner']}">{FIRM['partner']}</a><br>
+        Internships: <a href="mailto:{FIRM['internships']}">{FIRM['internships']}</a><br>
+        Billing &amp; invoices: <a href="mailto:{FIRM['invoice']}">{FIRM['invoice']}</a><br>
         WhatsApp: <a href="{FIRM['wa']}">{FIRM['phone']}</a><br>
         <a href="{FIRM['linkedin_firm']}">LinkedIn: Millennium Chambers</a><br>
         <a href="{FIRM['youtube']}">YouTube: startup law explainers</a>
       </address>
+      <p><button type="button" class="btn" onclick="mcHelp(true)">Ask a question</button></p>
       <p class="note">Under the rules of the Bar Council of India, advocates are not permitted to solicit work or advertise. This website is for general information only and does not constitute solicitation, advertisement or legal advice. By using it, you acknowledge that you are seeking information about Millennium Chambers of your own accord and that no advocate-client relationship is created by viewing this website or contacting us through it.</p>
     </div>
   </div>
@@ -402,7 +439,7 @@ def build_extras(pages, titles):
              "## Key pages", ""]
     for s, m in pages.items():
         lines.append(f"- [{titles[s]}]({DOMAIN}/{s}): {m['description']}")
-    lines += ["", "## Contact", "", f"- Email: {FIRM['email']}", f"- WhatsApp: {FIRM['phone']}"]
+    lines += ["", "## Contact", "", f"- General enquiries: {FIRM['email']}", f"- Partnerships: {FIRM['partner']}", f"- Internships: {FIRM['internships']}", f"- Billing and invoices: {FIRM['invoice']}", f"- WhatsApp: {FIRM['phone']}"]
     open(os.path.join(OUT, "llms.txt"), "w").write("\n".join(lines) + "\n")
     open(os.path.join(OUT, ".nojekyll"), "w").write("")
     # /home on the old Google Site -> redirect to /
