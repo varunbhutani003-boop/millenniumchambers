@@ -53,6 +53,7 @@ GUIDES = [
     ("esop-startups-india-legal-guide", "ESOPs for startups", "Rule 12, vesting, DPIIT relaxations and tax at a glance."),
     ("labour-codes-startups-india-guide", "The Labour Codes", "What changed on 21 November 2025 and what startups must do."),
     ("trademark-registration-startups-india", "Trademark registration", "Search, class, TM-A filing, examination, opposition and renewal."),
+    ("msme-delayed-payment-recovery-msmed-act", "MSME payment recovery", "The 45-day rule, interest and the MSE Facilitation Council."),
 ]
 
 BCI_SHORT = ("As per Bar Council of India rules, this website is for information only and is not a "
@@ -84,8 +85,7 @@ def person_schema():
         "jobTitle": "Advocate and Independent Partner",
         "worksFor": {"@id": DOMAIN + "/#firm"},
         "url": DOMAIN + "/varun-bhutani-advocate-gurugram",
-        "alumniOf": [{"@type": "CollegeOrUniversity", "name": "Ramaiah College of Law, Bengaluru"},
-                     {"@type": "CollegeOrUniversity", "name": "National Law School of India University, Bengaluru"}],
+        "alumniOf": [{"@type": "CollegeOrUniversity", "name": "Ramaiah College of Law, Bengaluru"}],
         "address": {"@type": "PostalAddress", "addressLocality": "Gurugram", "addressRegion": "Haryana", "addressCountry": "IN"},
         "knowsAbout": ["Startup and venture capital law", "DPDP Act 2023", "Labour Codes", "Fintech and NBFC regulation",
                        "Commercial contracts", "Trademarks", "IBC and SARFAESI"],
@@ -275,6 +275,11 @@ def build_inner(slug, meta):
             p["image"] = img_abs
         extra.append(p)
         extra.append({"@type": "ProfilePage", "mainEntity": {"@id": p["@id"]}, "url": DOMAIN + "/" + slug})
+        faqs = re.findall(r"\*\*(.+?\?)\*\*\s*\n(.+?)(?:\n\n|$)", body_md, flags=re.S)
+        if faqs:
+            extra.append({"@type": "FAQPage", "mainEntity": [
+                {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer",
+                 "text": re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", a).strip()}} for q, a in faqs]})
     byline = ""
     if kind == "article":
         byline = (f'<p class="byline">By <a href="/varun-bhutani-advocate-gurugram">Varun Bhutani, Advocate</a> · '

@@ -1,11 +1,11 @@
 {
   "varun-bhutani-advocate-gurugram": {
-    "title": "Advocate Varun Bhutani | Advocate & Startup Lawyer in Gurugram (Gurgaon)",
+    "title": "Varun Bhutani — Advocate, Gurugram (Gurgaon) | Startup & Corporate Lawyer",
     "description": "Varun Bhutani is an advocate in Gurugram (Gurgaon), enrolled with the Bar Council of Delhi since 2018, and Independent Partner of Millennium Chambers, advising on corporate, DPDP, labour and fundraising law.",
     "type": "person",
     "nav": "Advocate Varun Bhutani",
     "image": "/assets/img/varun-bhutani-advocate.jpg",
-    "image_alt": "Advocate Varun Bhutani, Millennium Chambers, Gurugram"
+    "image_alt": "Varun Bhutani, Advocate, Gurugram"
   },
   "labour-codes-startups-india-guide": {
     "title": "India's Labour Codes: A Startup Guide (2025 Rollout) | Millennium Chambers",
@@ -67,5 +67,10 @@
     "title": "Terms of Use | Millennium Chambers, Gurugram",
     "description": "Terms governing use of the Millennium Chambers website, including permitted use, no professional engagement, liability and governing law.",
     "type": "page"
+  },
+  "msme-delayed-payment-recovery-msmed-act": {
+    "title": "MSME Payment Recovery Under the MSMED Act: 45-Day Rule & MSEFC | Millennium Chambers",
+    "description": "How micro and small enterprises recover delayed payments under the MSMED Act: the 45-day rule, interest at three times the RBI bank rate, MSE Facilitation Council and the 75% deposit rule.",
+    "type": "article"
   }
 }
