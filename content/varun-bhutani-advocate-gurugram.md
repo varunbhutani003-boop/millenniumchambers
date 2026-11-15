@@ -1,8 +1,8 @@
 # Advocate Varun Bhutani
 
-## Advocate, Corporate Lawyer and Startup Legal Advisor in Gurugram
+## Advocate, Corporate Lawyer and Startup Legal Advisor in Gurugram (Gurgaon)
 
-Varun Bhutani is an advocate enrolled with the Bar Council of Delhi (since December 2018) and the Independent Partner of Millennium Chambers, Gurugram. He began in litigation before the Delhi High Court and spent nearly seven years since 2019 as an in-house lawyer with India's high-growth technology companies, most recently as Head of Legal at YesMadam.
+Varun Bhutani is an advocate enrolled with the Bar Council of Delhi (since December 2018) and the Independent Partner of Millennium Chambers, with his office at 325H, Sector 38, Gurugram (Gurgaon), Haryana. He began in litigation before the Delhi High Court and spent nearly seven years since 2019 as an in-house lawyer with India's high-growth technology companies, most recently as Head of Legal at YesMadam.
 
 ### Professional background
 

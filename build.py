@@ -66,10 +66,10 @@ def org_schema():
         "url": DOMAIN + "/",
         "email": FIRM["email"],
         "telephone": FIRM["phone"],
-        "description": "Gurugram-based legal practice advising founders and growing companies on corporate, commercial and regulatory matters.",
+        "description": "Advocate's practice in Sector 38, Gurugram (Gurgaon), Haryana, advising founders and growing companies on corporate, commercial and regulatory matters.",
         "address": {"@type": "PostalAddress", "streetAddress": FIRM["street"], "addressLocality": FIRM["city"],
                     "addressRegion": FIRM["region"], "postalCode": FIRM["pin"], "addressCountry": "IN"},
-        "areaServed": [{"@type": "City", "name": "Gurugram"}, {"@type": "Country", "name": "India"}],
+        "areaServed": [{"@type": "City", "name": "Gurugram", "alternateName": "Gurgaon"}, {"@type": "Country", "name": "India"}],
         "knowsAbout": ["Startup law", "Venture capital transactions", "Commercial contracts", "DPDP Act 2023",
                        "Labour Codes", "Gig worker compliance", "Consumer protection", "FSSAI food and nutraceutical regulation", "Trademarks", "Commercial leasing"],
         "founder": {"@id": DOMAIN + "/varun-bhutani-advocate-gurugram#varun"},
@@ -313,7 +313,7 @@ def build_inner(slug, meta):
     return h1
 
 def build_home():
-    title = "Millennium Chambers | Startup & Corporate Lawyers in Gurugram"
+    title = "Millennium Chambers | Advocate & Startup Lawyer in Gurugram (Gurgaon)"
     desc = ("Millennium Chambers is a Gurugram-based legal practice advising Indian founders and growing companies on "
             "corporate, commercial and regulatory matters: fundraising, contracts, DPDP, Labour Codes and disputes.")
     areas = [
@@ -336,7 +336,8 @@ def build_home():
         f'<img src="https://i.ytimg.com/vi/{v}/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">'
         f'<span class="play" aria-hidden="true"></span><strong>{esc(t)}</strong></a></li>' for v, t in videos)
     faq = [
-        ("Where is Millennium Chambers located?", "Millennium Chambers is at 325H, Sector 38, Gurugram, Haryana 122001, and works with founders and companies across India."),
+        ("Where is Millennium Chambers located?", "Millennium Chambers is at 325H, Sector 38, Gurugram (Gurgaon), Haryana 122001, and works with founders and companies across India."),
+        ("Is Millennium Chambers an advocate's office in Gurgaon?", "Yes. It is the practice of Advocate Varun Bhutani, enrolled with the Bar Council of Delhi (Enrolment No. D/9450/2018), with its office in Sector 38, Gurugram, the city also known as Gurgaon."),
         ("What kind of matters does Millennium Chambers handle?", "Corporate, commercial and regulatory work for startups and growing companies: incorporation and fundraising documents, commercial contracts, DPDP Act and Labour Code compliance, consumer protection, FSSAI labelling and claims for food and nutraceutical brands, trademarks, commercial leases, legal notices and arbitration support."),
         ("Who leads Millennium Chambers?", "Advocate Varun Bhutani, enrolled with the Bar Council of Delhi since December 2018, is the Independent Partner. He has worked in-house with technology and consumer companies, most recently as Head of Legal at YesMadam."),
         ("When do the main DPDP Act obligations apply?", "Under the DPDP Rules, 2025, consent manager rules apply from 13 November 2026 and the core obligations for data fiduciaries apply from 13 May 2027."),
@@ -347,9 +348,9 @@ def build_home():
     body = f"""
 <section class="hero">
   <div class="wrap">
-    <p class="eyebrow">Gurugram · Corporate, commercial &amp; regulatory law</p>
+    <p class="eyebrow">Advocate in Gurugram (Gurgaon) · Corporate, commercial &amp; regulatory law</p>
     <h1>Legal counsel for India's startups</h1>
-    <p class="lead">Millennium Chambers is a Gurugram-based legal practice advising founders and growing companies on corporate, commercial and regulatory matters, from incorporation and fundraising to contracts, compliance and disputes.</p>
+    <p class="lead">Millennium Chambers is the practice of Advocate Varun Bhutani in Sector 38, Gurugram (Gurgaon), advising founders and growing companies on corporate, commercial and regulatory matters, from incorporation and fundraising to contracts, compliance and disputes.</p>
     <p class="cta"><a class="btn" href="/startup-corporate-law-practice-areas-gurugram">Practice areas</a> <a class="btn ghost" href="#guides">Guides for founders</a></p>
   </div>
 </section>
