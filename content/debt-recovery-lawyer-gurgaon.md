@@ -18,15 +18,15 @@ Millennium Chambers, the practice of Advocate Varun Bhutani at 325H, Sector 38, 
 
 - **Legal notice and negotiated settlement.** Most recoveries start, and many end, with a properly drafted demand notice. It fixes the amount claimed, starts interest running where the contract allows it, and is often a statutory first step for what follows.
 
-- **Cheque bounce: Section 138, Negotiable Instruments Act.** Where a cheque given towards a debt is dishonoured, a written demand must be sent within 30 days of the bank's return memo. If payment is not made within 15 days of the drawer receiving that notice, a criminal complaint can be filed within one month after that.
+- **Cheque bounce: Section 138, Negotiable Instruments Act.** Where a cheque given towards a debt is dishonoured, a written demand must be sent within 30 days of receiving the bank's intimation that the cheque was returned unpaid. If payment is not made within 15 days of the drawer receiving that notice, a criminal complaint can be filed within one month after that.
 
-- **Enforcing security: SARFAESI Act.** Banks and notified financial institutions, including qualifying NBFCs, can enforce security over a non-performing account without first going to court, after a 60-day demand notice under Section 13(2). The borrower's remedy is before the Debts Recovery Tribunal.
+- **Enforcing security: SARFAESI Act.** Banks and notified financial institutions, including qualifying NBFCs, can enforce security over a non-performing account without first going to court, after a 60-day demand notice under Section 13(2). Once the lender takes possession or other measures under Section 13(4), the borrower's remedy is an application to the Debts Recovery Tribunal under Section 17.
 
 - **Insolvency: Sections 7 and 9, IBC.** Where the default is Rs 1 crore or more, a financial creditor can apply to the NCLT under Section 7, and an operational creditor under Section 9 after a demand notice under Section 8. The Code is a resolution process and not a recovery suit, but a well-founded application often brings a defaulting company to the table.
 
 - **Arbitration.** Where the loan or supply contract has an arbitration clause, the claim goes to an arbitral tribunal, with interim protection available from the court under Section 9 of the Arbitration and Conciliation Act, such as securing the amount in dispute.
 
-- **Summary and commercial suits.** Claims on written contracts, invoices and cheques can be filed as summary suits under Order XXXVII of the Code of Civil Procedure, where the defendant must first obtain the court's leave to defend. Commercial disputes of Rs 3 lakh and above go to the Commercial Courts, usually after pre-institution mediation.
+- **Summary and commercial suits.** Claims on written contracts, invoices and cheques can be filed as summary suits under Order XXXVII of the Code of Civil Procedure, where the defendant must first obtain the court's leave to defend. Commercial disputes of Rs 3 lakh and above go to the Commercial Courts, and pre-institution mediation under Section 12A of the Commercial Courts Act is mandatory unless urgent interim relief is sought.
 
 - **MSME delayed payments.** A micro or small supplier can claim the principal with compound interest before the MSE Facilitation Council. See the guide: [MSME payment recovery under the MSMED Act](/msme-delayed-payment-recovery-msmed-act).
 
@@ -42,7 +42,7 @@ The size of the debt, whether it is secured, what the contract says about disput
 For most money claims the limitation period is three years from the date the amount became due. A written acknowledgment of the debt or a part payment within that period can start a fresh period, so the paper trail matters.
 
 **Can an NBFC use the SARFAESI Act?**
-Only an NBFC notified as a financial institution for the purposes of the Act can, and only for secured loans above the notified thresholds. Other NBFCs rely on arbitration, Section 138 complaints, civil suits and the Insolvency and Bankruptcy Code.
+Only an NBFC notified as a financial institution for the purposes of the Act can. Under the Ministry of Finance notifications of February 2020 and February 2021, that means an NBFC with assets of Rs 100 crore or more, enforcing a secured debt of Rs 20 lakh or more. Other NBFCs, and smaller or unsecured loans, rely on arbitration, Section 138 complaints, civil suits and the Insolvency and Bankruptcy Code.
 
 **Is a legal notice necessary before filing a recovery case?**
 It is mandatory before a Section 138 complaint and before an operational creditor's insolvency application, and it is good practice in almost every other case, because it records the demand and often leads to settlement.
