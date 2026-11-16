@@ -196,6 +196,8 @@ def page(slug, title, description, body, h1, *, schema_extra=None, image=None, l
         <li><a href="/startup-corporate-law-practice-areas-gurugram">Practice areas</a></li>
         <li><a href="/startup-lawyer-gurgaon-gurugram">Startup lawyer in Gurgaon</a></li>
         <li><a href="/debt-recovery-lawyer-gurgaon">Debt recovery lawyer in Gurgaon</a></li>
+        <li><a href="/nbfc-fintech-lawyer-gurgaon">NBFC &amp; fintech lawyer in Gurgaon</a></li>
+        <li><a href="/legal-retainer-outside-counsel-startups">Legal retainer for startups</a></li>
         <li><a href="/startup-insights">Startup Insights</a></li>
         <li><a href="{FIRM['linkedin_firm']}">LinkedIn</a> · <a href="{FIRM['youtube']}">YouTube</a></li>
         <li><a href="/disclaimer">Disclaimer</a> · <a href="/privacy-policy">Privacy</a> · <a href="/terms-of-use">Terms</a></li>
@@ -380,6 +382,8 @@ def build_home():
     <p><a class="more" href="/startup-corporate-law-practice-areas-gurugram">Practice areas in detail</a></p>
     <p><a class="more" href="/startup-lawyer-gurgaon-gurugram">Startup lawyer in Gurgaon: how we work with founders</a></p>
     <p><a class="more" href="/debt-recovery-lawyer-gurgaon">Debt recovery lawyer in Gurgaon: routes to recover loans and unpaid dues</a></p>
+    <p><a class="more" href="/nbfc-fintech-lawyer-gurgaon">NBFC and fintech lawyer in Gurgaon: lending documents, RBI compliance and recovery</a></p>
+    <p><a class="more" href="/legal-retainer-outside-counsel-startups">Legal retainer: an outside legal team for companies without an in-house lawyer</a></p>
   </div>
 </section>
 

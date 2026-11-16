@@ -18,7 +18,7 @@ Recovery of loans and unpaid commercial dues for lenders, NBFCs and businesses: 
 
 ### NBFC, fintech and lending
 
-Loan agreements, sanction letters and term sheets, digital lending and bill-discounting documentation, co-lending and lending-service-provider arrangements, RBI directions for NBFCs, KYC and AML norms, the fair practices code and RBI outsourcing safeguards in technology and vendor contracts.
+Loan agreements, sanction letters and term sheets, digital lending and bill-discounting documentation, co-lending and lending-service-provider arrangements, RBI directions for NBFCs, KYC and AML norms, the fair practices code and RBI outsourcing safeguards in technology and vendor contracts. See [NBFC and fintech lawyer in Gurgaon](/nbfc-fintech-lawyer-gurgaon).
 
 ### Debt fundraising and structured finance
 

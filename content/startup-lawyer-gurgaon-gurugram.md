@@ -20,7 +20,7 @@ Millennium Chambers is the practice of Advocate Varun Bhutani at 325H, Sector 38
 
 ### How the work is arranged
 
-Most startups do not need a full-time lawyer, and many cannot justify one before Series A. Work is taken either matter by matter, for example a funding round, a contract set or a single dispute, or on a monthly retainer where the practice acts as the company's outside legal team and handles whatever comes up. The first conversation is about what the business actually needs in the next six months, so that money is not spent on documents it does not need yet.
+Most startups do not need a full-time lawyer, and many cannot justify one before Series A. Work is taken either matter by matter, for example a funding round, a contract set or a single dispute, or on a monthly retainer where the practice acts as the company's outside legal team and handles whatever comes up. The first conversation is about what the business actually needs in the next six months, so that money is not spent on documents it does not need yet. See [legal retainer for startups and growing companies](/legal-retainer-outside-counsel-startups).
 
 ### Where the practice works
 
