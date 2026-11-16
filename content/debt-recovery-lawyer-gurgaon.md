@@ -22,7 +22,7 @@ Millennium Chambers, the practice of Advocate Varun Bhutani at 325H, Sector 38, 
 
 - **Enforcing security: SARFAESI Act.** Banks and notified financial institutions, including qualifying NBFCs, can enforce security over a non-performing account without first going to court, after a 60-day demand notice under Section 13(2). Once the lender takes possession or other measures under Section 13(4), the borrower's remedy is an application to the Debts Recovery Tribunal under Section 17.
 
-- **Insolvency: Sections 7 and 9, IBC.** Where the default is Rs 1 crore or more, a financial creditor can apply to the NCLT under Section 7, and an operational creditor under Section 9 after a demand notice under Section 8. The Code is a resolution process and not a recovery suit, but a well-founded application often brings a defaulting company to the table.
+- **Insolvency: Sections 7 and 9, IBC.** Where the default is Rs 1 crore or more, a financial creditor can apply to the NCLT under Section 7, and an operational creditor under Section 9 after a demand notice under Section 8. Under the Insolvency and Bankruptcy Code (Amendment) Act, 2026, the NCLT is directed to decide admission within 14 days once the default and a complete application are shown, and an operational creditor must first submit the debt information to an information utility. The Code is a resolution process and not a recovery suit, but a well-founded application often brings a defaulting company to the table.
 
 - **Arbitration.** Where the loan or supply contract has an arbitration clause, the claim goes to an arbitral tribunal, with interim protection available from the court under Section 9 of the Arbitration and Conciliation Act, such as securing the amount in dispute.
 
