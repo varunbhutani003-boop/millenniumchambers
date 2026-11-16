@@ -72,7 +72,9 @@ def org_schema():
                     "addressRegion": FIRM["region"], "postalCode": FIRM["pin"], "addressCountry": "IN"},
         "areaServed": [{"@type": "City", "name": "Gurugram", "alternateName": "Gurgaon"}, {"@type": "Country", "name": "India"}],
         "knowsAbout": ["Startup law", "Venture capital transactions", "Commercial contracts", "DPDP Act 2023",
-                       "Labour Codes", "Gig worker compliance", "Consumer protection", "FSSAI food and nutraceutical regulation", "Trademarks", "Commercial leasing"],
+                       "Labour Codes", "Gig worker compliance", "Consumer protection", "FSSAI food and nutraceutical regulation", "Trademarks", "Commercial leasing",
+                       "Debt recovery", "Cheque bounce cases under Section 138 NI Act", "SARFAESI Act", "Insolvency and Bankruptcy Code",
+                       "Arbitration", "NBFC and fintech regulation", "Non-convertible debentures and structured finance", "MSME payment recovery"],
         "founder": {"@id": DOMAIN + "/varun-bhutani-advocate-gurugram#varun"},
         "sameAs": [FIRM["linkedin_firm"], FIRM["youtube"], "https://www.crunchbase.com/organization/millennium-chambers-1c85"],
     }
@@ -88,7 +90,9 @@ def person_schema():
         "alumniOf": [{"@type": "CollegeOrUniversity", "name": "Ramaiah College of Law, Bengaluru"}],
         "address": {"@type": "PostalAddress", "addressLocality": "Gurugram", "addressRegion": "Haryana", "addressCountry": "IN"},
         "knowsAbout": ["Startup and venture capital law", "DPDP Act 2023", "Labour Codes", "Fintech and NBFC regulation",
-                       "Commercial contracts", "Trademarks", "IBC and SARFAESI"],
+                       "Commercial contracts", "Trademarks", "IBC and SARFAESI", "Debt recovery", "Section 138 Negotiable Instruments Act",
+                       "Arbitration", "Structured finance and non-convertible debentures", "IPO and DRHP readiness",
+                       "Road safety SOPs and motor accident claims", "Corporate governance"],
         "sameAs": [FIRM["linkedin_varun"], FIRM["superlawyer"], FIRM["youtube"], "https://lawrato.com/advocate-varun-bhutani"],
     }
 
@@ -190,6 +194,7 @@ def page(slug, title, description, body, h1, *, schema_extra=None, image=None, l
         <li><a href="/varun-bhutani-advocate-gurugram">Advocate Varun Bhutani</a></li>
         <li><a href="/startup-corporate-law-practice-areas-gurugram">Practice areas</a></li>
         <li><a href="/startup-lawyer-gurgaon-gurugram">Startup lawyer in Gurgaon</a></li>
+        <li><a href="/debt-recovery-lawyer-gurgaon">Debt recovery lawyer in Gurgaon</a></li>
         <li><a href="/startup-insights">Startup Insights</a></li>
         <li><a href="{FIRM['linkedin_firm']}">LinkedIn</a> · <a href="{FIRM['youtube']}">YouTube</a></li>
         <li><a href="/disclaimer">Disclaimer</a> · <a href="/privacy-policy">Privacy</a> · <a href="/terms-of-use">Terms</a></li>
@@ -336,7 +341,8 @@ def build_home():
         ("FSSAI & nutraceuticals", "Label and claims reviews, FSSAI notice replies and product-range compliance for food and supplement brands."),
         ("Intellectual property", 'Trademark filing, prosecution and opposition.'),
         ("Real estate & leasing", "Commercial leases and leave-and-licence agreements."),
-        ("Notices & disputes", "Legal notices, recovery and arbitration support."),
+        ("Debt recovery & disputes", "Legal notices, cheque-bounce cases, SARFAESI, IBC, arbitration and recovery suits for lenders and businesses."),
+        ("NBFC, fintech & debt finance", "Lending documentation, RBI compliance, NCDs, term loans and lease financing."),
     ]
     area_html = "".join(f"<li><h3>{esc(a)}</h3><p>{esc(b)}</p></li>" for a, b in areas)
     guides = "".join(f'<li><a href="/{s}"><strong>{esc(t)}</strong><span>{esc(d)}</span></a></li>' for s, t, d in GUIDES)
@@ -372,6 +378,7 @@ def build_home():
     <ul class="areas">{area_html}</ul>
     <p><a class="more" href="/startup-corporate-law-practice-areas-gurugram">Practice areas in detail</a></p>
     <p><a class="more" href="/startup-lawyer-gurgaon-gurugram">Startup lawyer in Gurgaon: how we work with founders</a></p>
+    <p><a class="more" href="/debt-recovery-lawyer-gurgaon">Debt recovery lawyer in Gurgaon: routes to recover loans and unpaid dues</a></p>
   </div>
 </section>
 

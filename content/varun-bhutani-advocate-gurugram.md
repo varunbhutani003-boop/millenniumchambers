@@ -18,7 +18,7 @@ Varun Bhutani is an advocate enrolled with the Bar Council of Delhi (since Decem
 
 ### Areas of work
 
-Startup and venture-capital transactions, founders' and shareholders' agreements, ESOPs, fintech and NBFC regulation, the DPDP Act 2023, the four Labour Codes and gig-worker frameworks, consumer protection, IBC and SARFAESI, corporate governance, trademarks, commercial contracts and commercial real estate.
+Startup and venture-capital transactions, founders' and shareholders' agreements, ESOPs, commercial contracts, fintech and NBFC regulation, debt recovery (SARFAESI, the Insolvency and Bankruptcy Code, arbitration, Section 138 cheque-bounce cases and civil recovery suits), debt fundraising through non-convertible debentures, term loans and lease financing, IPO and DRHP readiness, the DPDP Act 2023, the four Labour Codes and gig-worker frameworks, consumer protection, road-safety SOPs and accident, insurance and MACT claims for fleets, corporate governance, ESG and EPR compliance, trademarks and commercial real estate.
 
 ### Focus: data protection for startups
 
@@ -30,7 +30,7 @@ Varun works with founders on the documents behind a funding round: term sheets, 
 
 ### Focus: commercial contracts and payment recovery
 
-Much of Varun's in-house work has been on the commercial side of fast-growing companies: vendor and customer agreements, franchise and dealer networks, payment-gateway and logistics contracts, and the notices and recoveries that follow when contracts break down. At OfBusiness and Oxyzo he worked on lending and recovery documentation from the NBFC's incorporation onwards, including matters under the IBC and SARFAESI. At Zypp Electric and Ecom Express he handled EV-fleet, delivery-partner and two-wheeler dealership arrangements, along with accident and on-ground escalations. For founders, this covers drafting contracts that are easier to enforce, replying to legal notices, and using the MSMED Act's 45-day payment rule and the MSE Facilitation Council when a micro or small supplier is not paid. Read his guide: [MSME payment recovery under the MSMED Act](/msme-delayed-payment-recovery-msmed-act).
+Much of Varun's in-house work has been on the commercial side of fast-growing companies: vendor and customer agreements, franchise and dealer networks, payment-gateway and logistics contracts, and the notices and recoveries that follow when contracts break down. At OfBusiness and Oxyzo he worked on lending and recovery documentation from the NBFC's incorporation onwards, including matters under the IBC and SARFAESI. At Zypp Electric and Ecom Express he handled EV-fleet, delivery-partner and two-wheeler dealership arrangements, along with accident and on-ground escalations. His recovery work there ran across Section 138 cheque-bounce complaints, arbitration claims, civil suits and Economic Offences Wing complaints, up to the Supreme Court, and included the litigation for a company acquired through NCLT liquidation. See [debt recovery lawyer in Gurgaon](/debt-recovery-lawyer-gurgaon). For founders, this covers drafting contracts that are easier to enforce, replying to legal notices, and using the MSMED Act's 45-day payment rule and the MSE Facilitation Council when a micro or small supplier is not paid. Read his guide: [MSME payment recovery under the MSMED Act](/msme-delayed-payment-recovery-msmed-act).
 
 ### Education
 
@@ -49,7 +49,7 @@ Varun Bhutani is an advocate based in Gurugram, enrolled with the Bar Council of
 Millennium Chambers is at 325H, Sector 38, Gurugram, Haryana 122001.
 
 **What areas of law does Varun Bhutani work in?**
-Startup and venture-capital transactions, commercial contracts, the DPDP Act 2023, the Labour Codes and gig-worker compliance, fintech and NBFC regulation, consumer protection, trademarks and commercial real estate.
+Startup and venture-capital transactions, commercial contracts, debt recovery and insolvency, fintech and NBFC regulation, debt fundraising, the DPDP Act 2023, the Labour Codes and gig-worker compliance, consumer protection, trademarks and commercial real estate.
 
 **Where did Varun Bhutani study law?**
 He holds a B.A. LL.B. from Ramaiah College of Law, Bengaluru (2018), and took contract law classes at NLSIU, Bengaluru.
