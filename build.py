@@ -189,6 +189,7 @@ def page(slug, title, description, body, h1, *, schema_extra=None, image=None, l
       <ul>
         <li><a href="/varun-bhutani-advocate-gurugram">Advocate Varun Bhutani</a></li>
         <li><a href="/startup-corporate-law-practice-areas-gurugram">Practice areas</a></li>
+        <li><a href="/startup-lawyer-gurgaon-gurugram">Startup lawyer in Gurgaon</a></li>
         <li><a href="/startup-insights">Startup Insights</a></li>
         <li><a href="{FIRM['linkedin_firm']}">LinkedIn</a> · <a href="{FIRM['youtube']}">YouTube</a></li>
         <li><a href="/disclaimer">Disclaimer</a> · <a href="/privacy-policy">Privacy</a> · <a href="/terms-of-use">Terms</a></li>
@@ -367,6 +368,7 @@ def build_home():
     <h2 id="pa">Practice areas</h2>
     <ul class="areas">{area_html}</ul>
     <p><a class="more" href="/startup-corporate-law-practice-areas-gurugram">Practice areas in detail</a></p>
+    <p><a class="more" href="/startup-lawyer-gurgaon-gurugram">Startup lawyer in Gurgaon: how we work with founders</a></p>
   </div>
 </section>
 

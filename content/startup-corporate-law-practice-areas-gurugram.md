@@ -50,6 +50,8 @@ Plain-English guides on the legal topics above, written for Indian founders (gen
 
 [Trademark registration for startups in India](/trademark-registration-startups-india)
 
+[Startup lawyer in Gurgaon (Gurugram): how the practice works with founders](/startup-lawyer-gurgaon-gurugram)
+
 About the author: [Advocate Varun Bhutani](/varun-bhutani-advocate-gurugram)
 
 Contact: 325H, Sector 38, Gurugram, Haryana 122001 | [info@millenniumchambers.in](mailto:info@millenniumchambers.in) | WhatsApp +91 9217648824. This page is for general information only and is not legal advice or a solicitation.
