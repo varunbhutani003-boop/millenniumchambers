@@ -74,7 +74,7 @@ def org_schema():
         "knowsAbout": ["Startup law", "Venture capital transactions", "Commercial contracts", "DPDP Act 2023",
                        "Labour Codes", "Gig worker compliance", "Consumer protection", "FSSAI food and nutraceutical regulation", "Trademarks", "Commercial leasing"],
         "founder": {"@id": DOMAIN + "/varun-bhutani-advocate-gurugram#varun"},
-        "sameAs": [FIRM["linkedin_firm"], FIRM["youtube"]],
+        "sameAs": [FIRM["linkedin_firm"], FIRM["youtube"], "https://www.crunchbase.com/organization/millennium-chambers-1c85"],
     }
 
 def person_schema():
@@ -89,7 +89,7 @@ def person_schema():
         "address": {"@type": "PostalAddress", "addressLocality": "Gurugram", "addressRegion": "Haryana", "addressCountry": "IN"},
         "knowsAbout": ["Startup and venture capital law", "DPDP Act 2023", "Labour Codes", "Fintech and NBFC regulation",
                        "Commercial contracts", "Trademarks", "IBC and SARFAESI"],
-        "sameAs": [FIRM["linkedin_varun"], FIRM["superlawyer"], FIRM["youtube"]],
+        "sameAs": [FIRM["linkedin_varun"], FIRM["superlawyer"], FIRM["youtube"], "https://lawrato.com/advocate-varun-bhutani"],
     }
 
 def esc(s):
