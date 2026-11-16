@@ -34,7 +34,7 @@ Much of Varun's in-house work has been on the commercial side of fast-growing co
 
 ### Education
 
-B.A. LL.B., Ramaiah College of Law, Bengaluru (2018), with contract law classes at the National Law School of India University (NLSIU), Bengaluru. Enrolled as an advocate with the Bar Council of Delhi in December 2018. Family roots in Hansi, Haryana.
+LL.M. in Corporate Law, MUIT University, Noida (2020). B.A. LL.B., Ramaiah College of Law, Bengaluru (2018), with contract law classes at the National Law School of India University (NLSIU), Bengaluru. Enrolled as an advocate with the Bar Council of Delhi in December 2018. Family roots in Hansi, Haryana.
 
 ### Media and public engagements
 
@@ -52,7 +52,7 @@ Millennium Chambers is at 325H, Sector 38, Gurugram, Haryana 122001.
 Startup and venture-capital transactions, commercial contracts, debt recovery and insolvency, fintech and NBFC regulation, debt fundraising, the DPDP Act 2023, the Labour Codes and gig-worker compliance, consumer protection, trademarks and commercial real estate.
 
 **Where did Varun Bhutani study law?**
-He holds a B.A. LL.B. from Ramaiah College of Law, Bengaluru (2018), and took contract law classes at NLSIU, Bengaluru.
+He holds an LL.M. in Corporate Law from MUIT University, Noida (2020) and a B.A. LL.B. from Ramaiah College of Law, Bengaluru (2018), and took contract law classes at NLSIU, Bengaluru.
 
 ### Find Varun Bhutani online
 

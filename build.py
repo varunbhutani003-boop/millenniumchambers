@@ -87,7 +87,8 @@ def person_schema():
         "jobTitle": "Advocate and Independent Partner",
         "worksFor": {"@id": DOMAIN + "/#firm"},
         "url": DOMAIN + "/varun-bhutani-advocate-gurugram",
-        "alumniOf": [{"@type": "CollegeOrUniversity", "name": "Ramaiah College of Law, Bengaluru"}],
+        "alumniOf": [{"@type": "CollegeOrUniversity", "name": "Ramaiah College of Law, Bengaluru"},
+                     {"@type": "CollegeOrUniversity", "name": "MUIT University, Noida"}],
         "address": {"@type": "PostalAddress", "addressLocality": "Gurugram", "addressRegion": "Haryana", "addressCountry": "IN"},
         "knowsAbout": ["Startup and venture capital law", "DPDP Act 2023", "Labour Codes", "Fintech and NBFC regulation",
                        "Commercial contracts", "Trademarks", "IBC and SARFAESI", "Debt recovery", "Section 138 Negotiable Instruments Act",
@@ -410,7 +411,7 @@ def build_home():
   <div class="wrap two">
     <div>
       <h2 id="ab">About</h2>
-      <p><strong>Varun Bhutani, Independent Partner.</strong> BA LLB, Ramaiah College of Law, Bengaluru (2018). Nearly eight years in legal practice, most of them in-house with technology and consumer businesses, most recently as Head of Legal at YesMadam, and earlier with Zypp Electric, Ecom Express and OfBusiness/Oxyzo, after beginning in litigation practice before the Delhi High Court. Guest lecturer at law schools in the NCR.</p>
+      <p><strong>Varun Bhutani, Independent Partner.</strong> LL.M. (Corporate Law), MUIT University, Noida (2020); BA LLB, Ramaiah College of Law, Bengaluru (2018). Nearly eight years in legal practice, most of them in-house with technology and consumer businesses, most recently as Head of Legal at YesMadam, and earlier with Zypp Electric, Ecom Express and OfBusiness/Oxyzo, after beginning in litigation practice before the Delhi High Court. Guest lecturer at law schools in the NCR.</p>
       <p><a class="more" href="/varun-bhutani-advocate-gurugram">Full profile of Advocate Varun Bhutani</a></p>
       <h3>Internships</h3>
       <p>We take a small number of recent law graduates (not current students) for internships focused on legal research and regulatory compliance for startups (no litigation work). To apply, email your CV and a short note on your areas of interest to <a href="mailto:{FIRM['internships']}?subject=Internship%20Application">{FIRM['internships']}</a> with the subject "Internship Application".</p>
