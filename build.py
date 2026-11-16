@@ -278,6 +278,9 @@ def build_inner(slug, meta):
             p["image"] = img_abs
         extra.append(p)
         extra.append({"@type": "ProfilePage", "mainEntity": {"@id": p["@id"]}, "url": DOMAIN + "/" + slug})
+    if kind == "page" and meta.get("faq"):
+        extra.append(person_schema())
+    if kind == "person" or meta.get("faq"):
         faqs = re.findall(r"\*\*(.+?\?)\*\*\s*\n(.+?)(?:\n\n|$)", body_md, flags=re.S)
         if faqs:
             extra.append({"@type": "FAQPage", "mainEntity": [

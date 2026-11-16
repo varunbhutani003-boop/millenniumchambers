@@ -10,7 +10,8 @@
   "startup-lawyer-gurgaon-gurugram": {
     "title": "Startup Lawyer in Gurgaon (Gurugram) | Advocate Varun Bhutani, Millennium Chambers",
     "description": "Startup lawyer in Gurgaon (Gurugram): Advocate Varun Bhutani, former Head of Legal at venture-backed companies, on founders' agreements, fundraising, contracts, DPDP, Labour Codes and trademarks.",
-    "type": "page"
+    "type": "page",
+    "faq": true
   },
   "labour-codes-startups-india-guide": {
     "title": "India's Labour Codes: A Startup Guide (2025 Rollout) | Millennium Chambers",
