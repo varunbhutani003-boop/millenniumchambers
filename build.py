@@ -502,7 +502,23 @@ def main():
         titles[slug] = build_inner(slug, meta)
     build_home()
     build_extras(pages, titles)
+    add_trailing_slashes(pages)
     print("built", len(pages) + 1, "pages")
+
+
+def add_trailing_slashes(pages):
+    """GitHub Pages serves /slug/ and 301-redirects /slug to it. Every canonical, sitemap entry,
+    schema URL and internal link must point at the final /slug/ address, or Google reports the
+    pages as 'Page with redirect'."""
+    pat = re.compile(r'/(' + "|".join(map(re.escape, pages)) + r')(?=["\'<)#?\s])')
+    for dirpath, _, files in os.walk(OUT):
+        for f in files:
+            if f.endswith((".html", ".xml", ".txt")):
+                fp = os.path.join(dirpath, f)
+                txt = open(fp).read()
+                new = pat.sub(r'/\1/', txt)
+                if new != txt:
+                    open(fp, "w").write(new)
 
 if __name__ == "__main__":
     main()
