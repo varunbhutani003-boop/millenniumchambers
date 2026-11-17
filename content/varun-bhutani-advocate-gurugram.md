@@ -38,7 +38,7 @@ LL.M. in Corporate Law, MUIT University, Noida (2020). B.A. LL.B., Ramaiah Colle
 
 ### Startup ecosystem and mentoring
 
-Varun is registered as a Mentor on BHASKAR (Bharat Startup Knowledge Access Registry), the Startup India network of the Department for Promotion of Industry and Internal Trade (DPIIT) that connects founders, mentors and investors, under BHASKAR ID IN-1126-9572LF. As a mentor he offers guidance to founders on getting legally ready to raise funds, protecting their brand, complying with the DPDP Act and the Labour Codes, and recovering unpaid dues. He also mentors student founders and lectures at NCR law schools. View his [Startup India BHASKAR profile](https://www.startupindia.gov.in/bhaskar/profile?bhaskarid=IN-1126-9572LF).
+Varun is registered as an Enabler on BHASKAR (Bharat Startup Knowledge Access Registry), the Startup India network of the Department for Promotion of Industry and Internal Trade (DPIIT) that connects founders, mentors, enablers and investors, under BHASKAR ID IN-1126-9572LF. Enablers are professionals who provide consultancy and advisory services to startups across growth stages. Through it he offers guidance to founders on getting legally ready to raise funds, protecting their brand, complying with the DPDP Act and the Labour Codes, and recovering unpaid dues. He also mentors student founders and lectures at NCR law schools. View his [Startup India BHASKAR profile](https://www.startupindia.gov.in/bhaskar/profile?bhaskarid=IN-1126-9572LF).
 
 ### Media and public engagements
 
