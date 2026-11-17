@@ -54,6 +54,7 @@ GUIDES = [
     ("labour-codes-startups-india-guide", "The Labour Codes", "What changed on 21 November 2025 and what startups must do."),
     ("trademark-registration-startups-india", "Trademark registration", "Search, class, TM-A filing, examination, opposition and renewal."),
     ("msme-delayed-payment-recovery-msmed-act", "MSME payment recovery", "The 45-day rule, interest and the MSE Facilitation Council."),
+    ("reply-to-legal-notice-gurugram", "Replying to a legal notice", "Timelines, what a reply contains and the admission risk."),
 ]
 
 BCI_SHORT = ("As per Bar Council of India rules, this website is for information only and is not a "
@@ -383,6 +384,7 @@ def build_home():
     <p><a class="more" href="/startup-lawyer-gurgaon-gurugram">Startup lawyer in Gurgaon: how we work with founders</a></p>
     <p><a class="more" href="/debt-recovery-lawyer-gurgaon">Debt recovery lawyer in Gurgaon: routes to recover loans and unpaid dues</a></p>
     <p><a class="more" href="/nbfc-fintech-lawyer-gurgaon">NBFC and fintech lawyer in Gurgaon: lending documents, RBI compliance and recovery</a></p>
+    <p><a class="more" href="/reply-to-legal-notice-gurugram">Received a legal notice in Gurugram? How a reply works</a></p>
     <p><a class="more" href="/legal-retainer-outside-counsel-startups">Legal retainer: an outside legal team for companies without an in-house lawyer</a></p>
   </div>
 </section>
