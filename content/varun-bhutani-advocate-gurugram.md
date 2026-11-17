@@ -32,6 +32,10 @@ Varun works with founders on the documents behind a funding round: term sheets, 
 
 Much of Varun's in-house work has been on the commercial side of fast-growing companies: vendor and customer agreements, franchise and dealer networks, payment-gateway and logistics contracts, and the notices and recoveries that follow when contracts break down. At OfBusiness and Oxyzo he worked on lending and recovery documentation from the NBFC's incorporation onwards, including matters under the IBC and SARFAESI. At Zypp Electric and Ecom Express he handled EV-fleet, delivery-partner and two-wheeler dealership arrangements, along with accident and on-ground escalations. His recovery work there ran across Section 138 cheque-bounce complaints, arbitration claims, civil suits and Economic Offences Wing complaints, up to the Supreme Court, and included the litigation for a company acquired through NCLT liquidation. See [debt recovery lawyer in Gurgaon](/debt-recovery-lawyer-gurgaon). For founders, this covers drafting contracts that are easier to enforce, replying to legal notices, and using the MSMED Act's 45-day payment rule and the MSE Facilitation Council when a micro or small supplier is not paid. Read his guide: [MSME payment recovery under the MSMED Act](/msme-delayed-payment-recovery-msmed-act).
 
+### Focus: legal notices, replies and pre-litigation steps
+
+A large share of commercial disputes in Gurugram begin and often end with an exchange of legal notices. Over his in-house years with a lender, a logistics company, an EV-fleet operator and a consumer platform, Varun has worked on payment and recovery demands, Section 138 cheque-dishonour notices and responses to consumer complaints. His approach starts from the documents (the contract, invoices, ledgers and correspondence) and checks the legal timelines that a notice can trigger, such as the 15-day payment window under Section 138 of the Negotiable Instruments Act, pre-institution mediation under Section 12A of the Commercial Courts Act, 2015 for commercial suits, and the effect of a written acknowledgment of debt under Section 18 of the Limitation Act, 1963. Read his guide: [how to reply to a legal notice in Gurugram](/reply-to-legal-notice-gurugram).
+
 ### Education
 
 LL.M. in Corporate Law, MUIT University, Noida (2020). B.A. LL.B., Ramaiah College of Law, Bengaluru (2018), with contract law classes at the National Law School of India University (NLSIU), Bengaluru. Enrolled as an advocate with the Bar Council of Delhi in December 2018. Family roots in Hansi, Haryana.
@@ -55,6 +59,9 @@ Millennium Chambers is at 325H, Sector 38, Gurugram, Haryana 122001.
 **What areas of law does Varun Bhutani work in?**
 Startup and venture-capital transactions, commercial contracts, debt recovery and insolvency, fintech and NBFC regulation, debt fundraising, the DPDP Act 2023, the Labour Codes and gig-worker compliance, consumer protection, trademarks and commercial real estate.
 
+**Is Varun Bhutani enrolled as an advocate?**
+Yes. He was enrolled as an advocate with the Bar Council of Delhi in December 2018 and practises from Millennium Chambers, 325H, Sector 38, Gurugram.
+
 **Where did Varun Bhutani study law?**
 He holds an LL.M. in Corporate Law from MUIT University, Noida (2020) and a B.A. LL.B. from Ramaiah College of Law, Bengaluru (2018), and took contract law classes at NLSIU, Bengaluru.
 
@@ -72,6 +79,6 @@ He holds an LL.M. in Corporate Law from MUIT University, Noida (2020) and a B.A.
 
 ### Guides by Varun Bhutani on this site
 
-[ESOPs for startups in India](/esop-startups-india-legal-guide) · [India's Labour Codes: a startup guide](/labour-codes-startups-india-guide) · [Trademark registration for startups](/trademark-registration-startups-india) · [Practice areas](/startup-corporate-law-practice-areas-gurugram) · [Startup Insights](/startup-insights) · [Founders' agreements for startups](/founders-agreement-startups-india) · [DPDP Act compliance for startups](/dpdp-act-compliance-startups-india) · [Term sheets for startups](/term-sheet-startups-india) · [MSME payment recovery under the MSMED Act](/msme-delayed-payment-recovery-msmed-act)
+[ESOPs for startups in India](/esop-startups-india-legal-guide) · [India's Labour Codes: a startup guide](/labour-codes-startups-india-guide) · [Trademark registration for startups](/trademark-registration-startups-india) · [Practice areas](/startup-corporate-law-practice-areas-gurugram) · [Startup Insights](/startup-insights) · [Founders' agreements for startups](/founders-agreement-startups-india) · [DPDP Act compliance for startups](/dpdp-act-compliance-startups-india) · [Term sheets for startups](/term-sheet-startups-india) · [MSME payment recovery under the MSMED Act](/msme-delayed-payment-recovery-msmed-act) · [How to reply to a legal notice](/reply-to-legal-notice-gurugram)
 
 This page is for information only and is not an advertisement or solicitation, in line with the Bar Council of India Rules.
