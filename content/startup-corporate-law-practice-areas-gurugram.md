@@ -16,6 +16,10 @@ Drafting and review of vendor, customer, SaaS, master services, payment-gateway,
 
 Recovery of loans and unpaid commercial dues for lenders, NBFCs and businesses: legal notices, cheque-bounce complaints under Section 138 of the Negotiable Instruments Act, enforcement under the SARFAESI Act, applications under Sections 7 and 9 of the Insolvency and Bankruptcy Code before the NCLT, liquidation-stage claims, arbitration, summary and commercial suits, MSME Facilitation Council claims, consumer complaints, injunctions and police or EOW complaints. See [debt recovery lawyer in Gurgaon](/debt-recovery-lawyer-gurgaon).
 
+### Foreign companies and law firms: India-side counsel
+
+For companies, investors and law firms outside India: recovery of dues from Indian buyers and distributors, enforcement of foreign court judgments under Section 44A of the Code of Civil Procedure and of foreign arbitral awards under the Arbitration and Conciliation Act, FEMA and foreign investment rules, DPDP, consumer and product compliance for sales into India, entity set-up, branch and liaison offices, licences and registrations, trademarks, and contracts with Indian counterparties. See [India legal counsel for foreign companies and law firms](/india-legal-counsel-foreign-companies).
+
 ### NBFC, fintech and lending
 
 Loan agreements, sanction letters and term sheets, digital lending and bill-discounting documentation, co-lending and lending-service-provider arrangements, RBI directions for NBFCs, KYC and AML norms, the fair practices code and RBI outsourcing safeguards in technology and vendor contracts. See [NBFC and fintech lawyer in Gurgaon](/nbfc-fintech-lawyer-gurgaon).

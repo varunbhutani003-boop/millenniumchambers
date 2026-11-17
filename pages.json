@@ -31,6 +31,13 @@
     "type": "page",
     "faq": true
   },
+  "india-legal-counsel-foreign-companies": {
+    "title": "India Legal Counsel for Foreign Companies & Law Firms | Recovery, Compliance, Licences",
+    "description": "India-side legal counsel for foreign companies and law firms: recovering dues from Indian parties, enforcing foreign judgments and awards, FEMA and DPDP compliance, licences and India entry.",
+    "type": "page",
+    "nav": "Foreign Clients",
+    "faq": true
+  },
   "labour-codes-startups-india-guide": {
     "title": "India's Labour Codes: A Startup Guide (2025 Rollout) | Millennium Chambers",
     "description": "What the four Labour Codes in force from 21 November 2025 mean for Indian startups: appointment letters, fixed-term gratuity, gig worker contributions, wages and a compliance checklist.",

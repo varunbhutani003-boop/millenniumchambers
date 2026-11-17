@@ -41,6 +41,7 @@ NAV = [
     ("/", "Home"),
     ("/varun-bhutani-advocate-gurugram", "Advocate Varun Bhutani"),
     ("/startup-corporate-law-practice-areas-gurugram", "Practice Areas"),
+    ("/india-legal-counsel-foreign-companies", "Foreign Clients"),
     ("/labour-codes-startups-india-guide", "Labour Codes"),
     ("/startup-insights", "Startup Insights"),
     ("/#guides", "Guides"),
@@ -75,7 +76,8 @@ def org_schema():
         "knowsAbout": ["Startup law", "Venture capital transactions", "Commercial contracts", "DPDP Act 2023",
                        "Labour Codes", "Gig worker compliance", "Consumer protection", "FSSAI food and nutraceutical regulation", "Trademarks", "Commercial leasing",
                        "Debt recovery", "Cheque bounce cases under Section 138 NI Act", "SARFAESI Act", "Insolvency and Bankruptcy Code",
-                       "Arbitration", "NBFC and fintech regulation", "Non-convertible debentures and structured finance", "MSME payment recovery"],
+                       "Arbitration", "NBFC and fintech regulation", "Non-convertible debentures and structured finance", "MSME payment recovery",
+                       "Cross-border debt recovery in India", "Enforcement of foreign judgments and arbitral awards in India", "FEMA and foreign investment", "India market entry and licences"],
         "founder": {"@id": DOMAIN + "/varun-bhutani-advocate-gurugram#varun"},
         "sameAs": [FIRM["linkedin_firm"], FIRM["youtube"], "https://www.crunchbase.com/organization/millennium-chambers-1c85"],
     }
@@ -347,6 +349,7 @@ def build_home():
         ("Real estate & leasing", "Commercial leases and leave-and-licence agreements."),
         ("Debt recovery & disputes", "Legal notices, cheque-bounce cases, SARFAESI, IBC, arbitration and recovery suits for lenders and businesses."),
         ("NBFC, fintech & debt finance", "Lending documentation, RBI compliance, NCDs, term loans and lease financing."),
+        ("Foreign companies & law firms", "India-side counsel for clients abroad: recovery from Indian parties, enforcing foreign judgments and awards, compliance, licences and India entry."),
     ]
     area_html = "".join(f"<li><h3>{esc(a)}</h3><p>{esc(b)}</p></li>" for a, b in areas)
     guides = "".join(f'<li><a href="/{s}"><strong>{esc(t)}</strong><span>{esc(d)}</span></a></li>' for s, t, d in GUIDES)
@@ -357,7 +360,8 @@ def build_home():
         f'<img src="https://i.ytimg.com/vi/{v}/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">'
         f'<span class="play" aria-hidden="true"></span><strong>{esc(t)}</strong></a></li>' for v, t in videos)
     faq = [
-        ("Where is Millennium Chambers located?", "Millennium Chambers is at 325H, Sector 38, Gurugram (Gurgaon), Haryana 122001, and works with founders and companies across India."),
+        ("Where is Millennium Chambers located?", "Millennium Chambers is at 325H, Sector 38, Gurugram (Gurgaon), Haryana 122001, and works with founders and companies across India, and with companies and law firms abroad on their Indian matters."),
+        ("Does Millennium Chambers work with companies outside India?", "Yes. It acts as India-side counsel for foreign companies and law firms: recovering dues from Indian parties, enforcing foreign judgments and arbitral awards, compliance with Indian law, licences and registrations, and setting up in India."),
         ("Is Millennium Chambers an advocate's office in Gurgaon?", "Yes. It is the practice of Advocate Varun Bhutani, enrolled with the Bar Council of Delhi (Enrolment No. D/9450/2018), with its office in Sector 38, Gurugram, the city also known as Gurgaon."),
         ("What kind of matters does Millennium Chambers handle?", "Corporate, commercial and regulatory work for startups and growing companies: incorporation and fundraising documents, commercial contracts, DPDP Act and Labour Code compliance, consumer protection, FSSAI labelling and claims for food and nutraceutical brands, trademarks, commercial leases, legal notices and arbitration support."),
         ("Who leads Millennium Chambers?", "Advocate Varun Bhutani, enrolled with the Bar Council of Delhi since December 2018, is the Independent Partner. He has worked in-house with technology and consumer companies, most recently as Head of Legal at YesMadam."),
@@ -384,6 +388,7 @@ def build_home():
     <p><a class="more" href="/startup-lawyer-gurgaon-gurugram">Startup lawyer in Gurgaon: how we work with founders</a></p>
     <p><a class="more" href="/debt-recovery-lawyer-gurgaon">Debt recovery lawyer in Gurgaon: routes to recover loans and unpaid dues</a></p>
     <p><a class="more" href="/nbfc-fintech-lawyer-gurgaon">NBFC and fintech lawyer in Gurgaon: lending documents, RBI compliance and recovery</a></p>
+    <p><a class="more" href="/india-legal-counsel-foreign-companies">Outside India? Recovery, compliance and licences for foreign companies and law firms</a></p>
     <p><a class="more" href="/reply-to-legal-notice-gurugram">Received a legal notice in Gurugram? How a reply works</a></p>
     <p><a class="more" href="/legal-retainer-outside-counsel-startups">Legal retainer: an outside legal team for companies without an in-house lawyer</a></p>
   </div>
@@ -462,7 +467,7 @@ def build_extras(pages, titles):
     open(os.path.join(OUT, "robots.txt"), "w").write(f"User-agent: *\nAllow: /\n\nSitemap: {DOMAIN}/sitemap.xml\n")
     lines = ["# Millennium Chambers", "",
              "> Gurugram-based legal practice (325H, Sector 38, Gurugram, Haryana 122001) advising Indian founders and growing "
-             "companies on corporate, commercial and regulatory law. Led by Advocate Varun Bhutani (Bar Council of Delhi, 2018). "
+             "companies on corporate, commercial and regulatory law, and acting as India-side counsel for foreign companies and law firms. Led by Advocate Varun Bhutani (Bar Council of Delhi, 2018). "
              "Website content is general information only, not legal advice or solicitation (Bar Council of India rules).", "",
              "## Key pages", ""]
     for s, m in pages.items():
