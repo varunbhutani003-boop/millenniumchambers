@@ -60,6 +60,8 @@ Trademark searches, filing, prosecution and opposition, brand protection for sta
 
 Commercial office leases, leave-and-licence agreements, co-working arrangements, title due diligence for warehouse and hub acquisitions, and property documentation review in Gurugram and other Indian cities.
 
+RERA matters under the Real Estate (Regulation and Development) Act, 2016: complaints, replies and representation before the Haryana Real Estate Regulatory Authority (HRERA Gurugram and Panchkula), its Adjudicating Officers and the Haryana Real Estate Appellate Tribunal.
+
 ### Guides for founders on this site
 
 Plain-English guides on the legal topics above, written for Indian founders (general information only):

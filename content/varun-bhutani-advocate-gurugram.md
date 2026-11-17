@@ -18,7 +18,7 @@ Varun Bhutani is an advocate enrolled with the Bar Council of Delhi (since Decem
 
 ### Areas of work
 
-Startup and venture-capital transactions, founders' and shareholders' agreements, ESOPs, commercial contracts, fintech and NBFC regulation, debt recovery (SARFAESI, the Insolvency and Bankruptcy Code, arbitration, Section 138 cheque-bounce cases and civil recovery suits), debt fundraising through non-convertible debentures, term loans and lease financing, IPO and DRHP readiness, the DPDP Act 2023, the four Labour Codes and gig-worker frameworks, consumer protection, road-safety SOPs and accident, insurance and MACT claims for fleets, corporate governance, ESG and EPR compliance, trademarks and commercial real estate.
+Startup and venture-capital transactions, founders' and shareholders' agreements, ESOPs, commercial contracts, fintech and NBFC regulation, debt recovery (SARFAESI, the Insolvency and Bankruptcy Code, arbitration, Section 138 cheque-bounce cases and civil recovery suits), debt fundraising through non-convertible debentures, term loans and lease financing, IPO and DRHP readiness, the DPDP Act 2023, the four Labour Codes and gig-worker frameworks, consumer protection, road-safety SOPs and accident, insurance and MACT claims for fleets, corporate governance, ESG and EPR compliance, trademarks, commercial real estate and RERA matters before the Haryana Real Estate Regulatory Authority (HRERA).
 
 ### Focus: data protection for startups
 
@@ -57,7 +57,7 @@ Varun Bhutani is an advocate based in Gurugram, enrolled with the Bar Council of
 Millennium Chambers is at 325H, Sector 38, Gurugram, Haryana 122001.
 
 **What areas of law does Varun Bhutani work in?**
-Startup and venture-capital transactions, commercial contracts, debt recovery and insolvency, fintech and NBFC regulation, debt fundraising, the DPDP Act 2023, the Labour Codes and gig-worker compliance, consumer protection, trademarks and commercial real estate.
+Startup and venture-capital transactions, commercial contracts, debt recovery and insolvency, fintech and NBFC regulation, debt fundraising, the DPDP Act 2023, the Labour Codes and gig-worker compliance, consumer protection, trademarks, commercial real estate and RERA matters before the Haryana Real Estate Regulatory Authority (HRERA).
 
 **Is Varun Bhutani enrolled as an advocate?**
 Yes. He was enrolled as an advocate with the Bar Council of Delhi in December 2018 and practises from Millennium Chambers, 325H, Sector 38, Gurugram.
