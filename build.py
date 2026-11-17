@@ -94,7 +94,7 @@ def person_schema():
                        "Commercial contracts", "Trademarks", "IBC and SARFAESI", "Debt recovery", "Section 138 Negotiable Instruments Act",
                        "Arbitration", "Structured finance and non-convertible debentures", "IPO and DRHP readiness",
                        "Road safety SOPs and motor accident claims", "Corporate governance"],
-        "sameAs": [FIRM["linkedin_varun"], FIRM["superlawyer"], FIRM["youtube"], "https://lawrato.com/advocate-varun-bhutani"],
+        "sameAs": [FIRM["linkedin_varun"], FIRM["superlawyer"], FIRM["youtube"], "https://lawrato.com/advocate-varun-bhutani", "https://www.startupindia.gov.in/bhaskar/profile?bhaskarid=IN-1126-9572LF"],
     }
 
 def esc(s):

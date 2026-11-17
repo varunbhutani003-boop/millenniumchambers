@@ -36,6 +36,10 @@ Much of Varun's in-house work has been on the commercial side of fast-growing co
 
 LL.M. in Corporate Law, MUIT University, Noida (2020). B.A. LL.B., Ramaiah College of Law, Bengaluru (2018), with contract law classes at the National Law School of India University (NLSIU), Bengaluru. Enrolled as an advocate with the Bar Council of Delhi in December 2018. Family roots in Hansi, Haryana.
 
+### Startup ecosystem and mentoring
+
+Varun is listed on BHASKAR (Bharat Startup Knowledge Access Registry), the Startup India network of the Department for Promotion of Industry and Internal Trade (DPIIT) that connects founders, mentors and investors, under BHASKAR ID IN-1126-9572LF. Through it he offers guidance to founders on getting legally ready to raise funds, protecting their brand, complying with the DPDP Act and the Labour Codes, and recovering unpaid dues. He also mentors student founders and lectures at NCR law schools. View his [Startup India BHASKAR profile](https://www.startupindia.gov.in/bhaskar/profile?bhaskarid=IN-1126-9572LF).
+
 ### Media and public engagements
 
 Interviewed by SuperLawyer (LawSikho) in "When Courtroom Strategy Meets Startup Innovation — The Journey of a Legal Leader"; featured by Bar & Bench and the HR Association of India; keynote on startup legal fundamentals at IMS Design & Innovation Academy, Noida; moot court judge at Maharishi Law School, MUIT; guest on Salaam Namaste 90.4 FM and the Creator IRL Podcast; guest lecturer at NCR law schools.
@@ -59,6 +63,8 @@ He holds an LL.M. in Corporate Law from MUIT University, Noida (2020) and a B.A.
 - Interview: [When Courtroom Strategy Meets Startup Innovation: The Journey of a Legal Leader (SuperLawyer)](https://superlawyer.in/when-courtroom-strategy-meets-startup-innovation-the-journey-of-a-legal-leader-varun-bhutani)
 
 - LinkedIn: [linkedin.com/in/varun-bhutani-2862b3158](https://www.linkedin.com/in/varun-bhutani-2862b3158)
+
+- Startup India (BHASKAR, DPIIT): [BHASKAR ID IN-1126-9572LF](https://www.startupindia.gov.in/bhaskar/profile?bhaskarid=IN-1126-9572LF)
 
 - YouTube: [Varun Bhutani, startup law explainers](https://www.youtube.com/channel/UCVBdxZHlyKdf56U1v1CvBcQ)
 
