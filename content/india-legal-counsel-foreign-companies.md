@@ -54,7 +54,7 @@ More on the domestic routes: [debt recovery lawyer in Gurgaon](/debt-recovery-la
 
 - **Choosing the vehicle.** A wholly owned subsidiary, an LLP, a joint venture, or a branch, liaison or project office. Offices of a foreign company are set up under the FEMA regulations of 2016 through an authorised dealer bank, with prior Reserve Bank approval in specified cases, and are then registered with the Registrar of Companies.
 
-- **Business registrations.** Company incorporation, PAN and TAN, GST, Importer-Exporter Code and the state shops and establishments registration.
+- **Business registrations.** Company incorporation, PAN and TAN, GST, Importer-Exporter Code and the state shops and establishments registration. See [business registrations and licences in India](/business-registrations-licences-india).
 
 - **Sector licences.** FSSAI licences for food importers and brands, importer registration for packaged commodities under the Legal Metrology rules, BIS certification where a product is covered, drug and cosmetic import registrations, and producer-responsibility registrations for packaging and e-waste.
 

@@ -109,5 +109,27 @@
     "description": "How businesses in Gurugram (Gurgaon) should handle a legal notice: when a notice is mandatory, Section 138 and Section 12A timelines, what a reply contains and the admission risk under the Limitation Act.",
     "type": "article",
     "faq": true
+  },
+  "business-registrations-licences-india": {
+    "title": "Business Registrations & Licences in India: Udyam, GST, FSSAI, IEC | Millennium Chambers",
+    "description": "Registrations and licences a small business or startup in India usually needs: Udyam, GST, shops and establishments, DPIIT recognition, FSSAI, IEC, trademark and sector licences, explained by a Gurugram advocate.",
+    "type": "page",
+    "nav": "Registrations & Licences",
+    "faq": true
+  },
+  "licences-gurugram-startup-first-90-days": {
+    "title": "Licences a Gurugram Startup Needs in Its First 90 Days | Millennium Chambers",
+    "description": "A practical order of registrations for a new startup in Gurugram (Gurgaon): entity, Udyam, shops and establishments, trademark, GST, DPIIT recognition, sector licences and employer registrations.",
+    "type": "article"
+  },
+  "fssai-registration-licence-2026-turnover-limits": {
+    "title": "FSSAI Registration & Licence: 2026 Turnover Limits Explained | Millennium Chambers",
+    "description": "FSSAI's revised thresholds from 1 April 2026: registration up to Rs 1.5 crore turnover, State Licence up to Rs 50 crore, Central Licence above, and what small food businesses should check.",
+    "type": "article"
+  },
+  "mca-filings-after-company-incorporation-india": {
+    "title": "MCA Filings After Company Incorporation in India: What You Can File Yourself | Millennium Chambers",
+    "description": "Post-incorporation and annual MCA filings for a private company: INC-20A, ADT-1, AOC-4, MGT-7A, DPT-3, MSME-1 and director KYC, and which forms a small company can file without a professional.",
+    "type": "article"
   }
 }

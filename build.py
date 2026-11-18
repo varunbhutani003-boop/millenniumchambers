@@ -56,6 +56,9 @@ GUIDES = [
     ("trademark-registration-startups-india", "Trademark registration", "Search, class, TM-A filing, examination, opposition and renewal."),
     ("msme-delayed-payment-recovery-msmed-act", "MSME payment recovery", "The 45-day rule, interest and the MSE Facilitation Council."),
     ("reply-to-legal-notice-gurugram", "Replying to a legal notice", "Timelines, what a reply contains and the admission risk."),
+    ("licences-gurugram-startup-first-90-days", "Licences in the first 90 days", "The order of registrations for a new Gurugram startup."),
+    ("mca-filings-after-company-incorporation-india", "MCA filings after incorporation", "INC-20A, AOC-4, MGT-7A and what a small company can file itself."),
+    ("fssai-registration-licence-2026-turnover-limits", "FSSAI: the 2026 limits", "Registration up to Rs 1.5 crore turnover from 1 April 2026."),
 ]
 
 BCI_SHORT = ("As per Bar Council of India rules, this website is for information only and is not a "
@@ -201,6 +204,7 @@ def page(slug, title, description, body, h1, *, schema_extra=None, image=None, l
         <li><a href="/debt-recovery-lawyer-gurgaon">Debt recovery lawyer in Gurgaon</a></li>
         <li><a href="/nbfc-fintech-lawyer-gurgaon">NBFC &amp; fintech lawyer in Gurgaon</a></li>
         <li><a href="/legal-retainer-outside-counsel-startups">Legal retainer for startups</a></li>
+        <li><a href="/business-registrations-licences-india">Registrations &amp; licences</a></li>
         <li><a href="/startup-insights">Startup Insights</a></li>
         <li><a href="{FIRM['linkedin_firm']}">LinkedIn</a> · <a href="{FIRM['youtube']}">YouTube</a></li>
         <li><a href="/disclaimer">Disclaimer</a> · <a href="/privacy-policy">Privacy</a> · <a href="/terms-of-use">Terms</a></li>
@@ -388,6 +392,7 @@ def build_home():
     <p><a class="more" href="/startup-lawyer-gurgaon-gurugram">Startup lawyer in Gurgaon: how we work with founders</a></p>
     <p><a class="more" href="/debt-recovery-lawyer-gurgaon">Debt recovery lawyer in Gurgaon: routes to recover loans and unpaid dues</a></p>
     <p><a class="more" href="/nbfc-fintech-lawyer-gurgaon">NBFC and fintech lawyer in Gurgaon: lending documents, RBI compliance and recovery</a></p>
+    <p><a class="more" href="/business-registrations-licences-india">Starting up? Business registrations and licences: Udyam, GST, FSSAI, IEC and more</a></p>
     <p><a class="more" href="/india-legal-counsel-foreign-companies">Outside India? Recovery, compliance and licences for foreign companies and law firms</a></p>
     <p><a class="more" href="/reply-to-legal-notice-gurugram">Received a legal notice in Gurugram? How a reply works</a></p>
     <p><a class="more" href="/legal-retainer-outside-counsel-startups">Legal retainer: an outside legal team for companies without an in-house lawyer</a></p>

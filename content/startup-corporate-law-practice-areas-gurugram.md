@@ -20,6 +20,10 @@ Recovery of loans and unpaid commercial dues for lenders, NBFCs and businesses: 
 
 For companies, investors and law firms outside India: recovery of dues from Indian buyers and distributors, enforcement of foreign court judgments under Section 44A of the Code of Civil Procedure and of foreign arbitral awards under the Arbitration and Conciliation Act, FEMA and foreign investment rules, DPDP, consumer and product compliance for sales into India, entity set-up, branch and liaison offices, licences and registrations, trademarks, and contracts with Indian counterparties. See [India legal counsel for foreign companies and law firms](/india-legal-counsel-foreign-companies).
 
+### Business registrations, licences and company filings
+
+Udyam, GST, shops and establishments and DPIIT startup recognition, FSSAI registrations and licences, Importer-Exporter Code, Legal Metrology and trade licences, sector approvals, and the post-incorporation and annual filings of a private company with the Registrar of Companies. See [business registrations and licences in India](/business-registrations-licences-india) and [MCA filings after incorporation](/mca-filings-after-company-incorporation-india).
+
 ### NBFC, fintech and lending
 
 Loan agreements, sanction letters and term sheets, digital lending and bill-discounting documentation, co-lending and lending-service-provider arrangements, RBI directions for NBFCs, KYC and AML norms, the fair practices code and RBI outsourcing safeguards in technology and vendor contracts. See [NBFC and fintech lawyer in Gurgaon](/nbfc-fintech-lawyer-gurgaon).
