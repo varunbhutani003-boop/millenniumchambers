@@ -18,7 +18,7 @@ Millennium Chambers, the practice of Advocate Varun Bhutani at 325H, Sector 38, 
 
 - **Legal notice and negotiated settlement.** Most recoveries start, and many end, with a properly drafted demand notice. It fixes the amount claimed, starts interest running where the contract allows it, and is often a statutory first step for what follows.
 
-- **Cheque bounce: Section 138, Negotiable Instruments Act.** Where a cheque given towards a debt is dishonoured, a written demand must be sent within 30 days of receiving the bank's intimation that the cheque was returned unpaid. If payment is not made within 15 days of the drawer receiving that notice, a criminal complaint can be filed within one month after that.
+- **Cheque bounce: Section 138, Negotiable Instruments Act.** Where a cheque given towards a debt is dishonoured, a written demand must be sent within 30 days of receiving the bank's intimation that the cheque was returned unpaid. If payment is not made within 15 days of the drawer receiving that notice, a criminal complaint can be filed within one month after that. See the full guide: [cheque bounce under Section 138 for businesses](/cheque-bounce-section-138-guide-businesses).
 
 - **Enforcing security: SARFAESI Act.** Banks and notified financial institutions, including qualifying NBFCs, can enforce security over a non-performing account without first going to court, after a 60-day demand notice under Section 13(2). Once the lender takes possession or other measures under Section 13(4), the borrower's remedy is an application to the Debts Recovery Tribunal under Section 17.
 
