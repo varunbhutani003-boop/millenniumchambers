@@ -408,6 +408,7 @@ def build_home():
     <p><a class="more" href="/business-registrations-licences-india">Starting up? Business registrations and licences: Udyam, GST, FSSAI, IEC and more</a></p>
     <p><a class="more" href="/india-legal-counsel-foreign-companies">Outside India? Recovery, compliance and licences for foreign companies and law firms</a></p>
     <p><a class="more" href="/reply-to-legal-notice-gurugram">Received a legal notice in Gurugram? How a reply works</a></p>
+    <p><a class="more" href="/cheque-bounce-section-138-guide-businesses">Customer's cheque bounced? Section 138 deadlines and process</a></p>
     <p><a class="more" href="/hrera-advocate-gurugram">Builder delayed possession? RERA complaints before HRERA Gurugram</a></p>
     <p><a class="more" href="/startup-lawyer-delhi">Based in Delhi? Startup lawyer for Delhi companies</a> · <a class="more" href="/startup-lawyer-noida">Based in Noida? Startup lawyer for Noida companies</a></p>
     <p><a class="more" href="/legal-retainer-outside-counsel-startups">Legal retainer: an outside legal team for companies without an in-house lawyer</a></p>
