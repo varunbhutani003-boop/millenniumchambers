@@ -52,6 +52,6 @@ Under the Companies Act, 2013, a private company issuing shares to an investor u
 
 Related guides: [Founders' agreements for startups in India](/founders-agreement-startups-india) · [ESOPs for startups in India](/esop-startups-india-legal-guide) · [DPDP Act compliance for startups](/dpdp-act-compliance-startups-india) · [Practice areas](/startup-corporate-law-practice-areas-gurugram) · [Millennium Chambers home](/home)
 
-Written by Advocate Varun Bhutani, Independent Partner, Millennium Chambers, Gurugram.
+Written by Advocate Varun Bhutani, Managing Advocate, Millennium Chambers, Gurugram.
 
 This page is for general information only. It is not legal advice and is not a solicitation or advertisement. Please take advice on your specific facts.

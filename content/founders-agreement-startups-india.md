@@ -56,6 +56,6 @@ Stamp duty is a State subject in India and rates vary from State to State. Under
 
 [ESOPs for startups in India](/esop-startups-india-legal-guide) · [Trademark registration for startups](/trademark-registration-startups-india) · [DPDP Act compliance for startups](/dpdp-act-compliance-startups-india) · [Practice areas](/startup-corporate-law-practice-areas-gurugram) · [Millennium Chambers home](/home) · [Term sheets for startups in India](/term-sheet-startups-india) 
 
-Written by[Advocate Varun Bhutani](/varun-bhutani-advocate-gurugram), Independent Partner, Millennium Chambers, Gurugram.
+Written by [Advocate Varun Bhutani](/varun-bhutani-advocate-gurugram), Managing Advocate, Millennium Chambers, Gurugram.
 
 This page is for general information only. It is not legal advice and is not a solicitation or advertisement. Please take advice on your specific facts.

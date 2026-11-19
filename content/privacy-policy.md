@@ -6,7 +6,7 @@ This Privacy Policy explains how Millennium Chambers ("we", "us") collects, uses
 
 ### Information We Collect
 
-You can browse this website without giving us any personal data. We collect only the information you choose to send us, such as your name, email address, phone number, the details of your query and, for internship applicants, your CV. Our website host, Google, may automatically collect technical information such as your IP address, browser type and cookies, under Google's own privacy policy.
+You can browse this website without giving us any personal data. We collect only the information you choose to send us, such as your name, email address, phone number, the details of your query and, for internship applicants, your CV. Our website host (GitHub Pages) may automatically log technical information such as your IP address and browser type, and we use Google Analytics to count visits by page and region through cookies. Visitor statistics are seen only by us.
 
 ### How We Use Your Information
 
@@ -14,7 +14,7 @@ We use your information only to respond to your enquiry, carry out conflict chec
 
 ### Sharing, Retention and Security
 
-We share personal data only with service providers we rely on to run this website and our email (such as Google), or where required by law, a court or a regulator. We keep personal data only for as long as needed for the purpose it was collected; internship applications are deleted within 12 months unless the applicant is engaged. We use reasonable safeguards to protect your data, but no transmission over the internet is completely secure.
+We share personal data only with service providers we rely on to run this website and our email (such as GitHub, Google and FormSubmit, which delivers messages sent through the website's query form to our email), or where required by law, a court or a regulator. We keep personal data only for as long as needed for the purpose it was collected; internship applications are deleted within 12 months unless the applicant is engaged. We use reasonable safeguards to protect your data, but no transmission over the internet is completely secure.
 
 ### Your Rights and Grievance Redressal
 
