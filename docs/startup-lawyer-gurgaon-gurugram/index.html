@@ -25,7 +25,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/site.css?v=1">
+<link rel="stylesheet" href="/assets/site.css?v=2">
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
@@ -33,7 +33,7 @@
   {
    "@type": [
     "LegalService",
-    "Organization"
+    "LocalBusiness"
    ],
    "@id": "https://www.millenniumchambers.in/#firm",
    "name": "Millennium Chambers",
@@ -56,10 +56,22 @@
      "alternateName": "Gurgaon"
     },
     {
+     "@type": "City",
+     "name": "New Delhi"
+    },
+    {
+     "@type": "City",
+     "name": "Noida"
+    },
+    {
      "@type": "Country",
      "name": "India"
     }
    ],
+   "hasMap": "https://www.google.com/maps/search/?api=1&query=Millennium+Chambers+325H+Sector+38+Gurugram",
+   "priceRange": "On request",
+   "image": "https://www.millenniumchambers.in/assets/img/og-default.jpg",
+   "logo": "https://www.millenniumchambers.in/assets/icon-512.png",
    "knowsAbout": [
     "Startup law",
     "Venture capital transactions",
@@ -97,7 +109,7 @@
    "@type": "Person",
    "@id": "https://www.millenniumchambers.in/varun-bhutani-advocate-gurugram/#varun",
    "name": "Varun Bhutani",
-   "jobTitle": "Advocate and Independent Partner",
+   "jobTitle": "Managing Advocate",
    "worksFor": {
     "@id": "https://www.millenniumchambers.in/#firm"
    },
@@ -305,7 +317,8 @@ Yes. He is enrolled with the Bar Council of Delhi, Enrolment No. D/9450/2018.</p
       Partnerships: <a href="mailto:partner@millenniumchambers.in">partner@millenniumchambers.in</a><br>
       Internships: <a href="mailto:internships@millenniumchambers.in">internships@millenniumchambers.in</a><br>
       Billing: <a href="mailto:invoice@millenniumchambers.in">invoice@millenniumchambers.in</a><br>
-      <a href="https://wa.me/919217648824">WhatsApp +91 9217648824</a></address>
+      <a href="tel:+919217648824">Call +91 9217648824</a> · <a href="https://wa.me/919217648824">WhatsApp</a><br>
+      Serving clients in Gurugram, New Delhi and Noida</address>
     </div>
     <div>
       <p class="fhead">Guides for founders</p>
@@ -320,6 +333,8 @@ Yes. He is enrolled with the Bar Council of Delhi, Enrolment No. D/9450/2018.</p
         <li><a href="/debt-recovery-lawyer-gurgaon/">Debt recovery lawyer in Gurgaon</a></li>
         <li><a href="/nbfc-fintech-lawyer-gurgaon/">NBFC &amp; fintech lawyer in Gurgaon</a></li>
         <li><a href="/legal-retainer-outside-counsel-startups/">Legal retainer for startups</a></li>
+        <li><a href="/hrera-advocate-gurugram/">HRERA advocate in Gurugram</a></li>
+        <li><a href="/startup-lawyer-delhi/">Startup lawyer, Delhi</a> · <a href="/startup-lawyer-noida/">Noida</a></li>
         <li><a href="/business-registrations-licences-india/">Registrations &amp; licences</a></li>
         <li><a href="/startup-insights/">Startup Insights</a></li>
         <li><a href="https://www.linkedin.com/company/millennium-chambers-gurugram">LinkedIn</a> · <a href="https://www.youtube.com/@varunvibe003">YouTube</a></li>
@@ -342,19 +357,25 @@ Yes. He is enrolled with the Bar Council of Delhi, Enrolment No. D/9450/2018.</p
     </select>
     <label for="h-name">Your name</label>
     <input id="h-name" autocomplete="name" required>
+    <label for="h-email">Your email or phone</label>
+    <input id="h-email" autocomplete="email" required>
     <label for="h-msg">Your question</label>
     <textarea id="h-msg" rows="4" required placeholder="Briefly describe what you need help with"></textarea>
-    <button type="submit" class="btn">Send by email</button>
-    <p class="help-alt">Or WhatsApp <a href="https://wa.me/919217648824">+91 9217648824</a>. Your email app will open with the message ready to send to <span id="h-to">info@millenniumchambers.in</span>.</p>
+    <button type="submit" class="btn" id="h-send">Send</button>
+    <p class="help-alt" id="h-status">Or WhatsApp <a href="https://wa.me/919217648824">+91 9217648824</a>. Your message goes to <span id="h-to">info@millenniumchambers.in</span>.</p>
     <p class="note">Please do not share confidential details here. Contacting us does not create an advocate-client relationship.</p>
   </form>
 </div>
 <script>
 function mcHelp(o){var d=document.getElementById('help'),b=document.querySelector('.help-fab');if(o===undefined)o=d.hidden;d.hidden=!o;b.setAttribute('aria-expanded',o);if(o)document.getElementById('h-topic').focus();}
 document.addEventListener('change',function(e){if(e.target.id==='h-topic')document.getElementById('h-to').textContent=e.target.value;});
-function mcSend(e){e.preventDefault();var t=document.getElementById('h-topic'),n=document.getElementById('h-name').value.trim(),m=document.getElementById('h-msg').value.trim();
+function mcSend(e){e.preventDefault();var t=document.getElementById('h-topic'),n=document.getElementById('h-name').value.trim(),c=document.getElementById('h-email').value.trim(),m=document.getElementById('h-msg').value.trim(),st=document.getElementById('h-status'),btn=document.getElementById('h-send');
 var sub=t.options[t.selectedIndex].text+' - website query from '+n;
-location.href='mailto:'+t.value+'?subject='+encodeURIComponent(sub)+'&body='+encodeURIComponent(m+'\n\n'+n);return false;}
+function fallback(){location.href='mailto:'+t.value+'?subject='+encodeURIComponent(sub)+'&body='+encodeURIComponent(m+'\n\n'+n+' ('+c+')');}
+btn.disabled=true;btn.textContent='Sending...';
+fetch('https://formsubmit.co/ajax/'+t.value,{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify({_subject:sub,name:n,contact:c,message:m,page:location.href,_template:'table',_captcha:'false'})})
+.then(function(r){return r.json();}).then(function(d){if(d&&(d.success===true||d.success==='true')){st.textContent='Thank you. Your message has been sent and we will reply shortly.';e.target.reset();btn.textContent='Sent';}else{fallback();btn.disabled=false;btn.textContent='Send';}})
+.catch(function(){fallback();btn.disabled=false;btn.textContent='Send';});return false;}
 </script>
 </body>
 </html>
