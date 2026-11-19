@@ -66,7 +66,7 @@ BCI_SHORT = ("As per Bar Council of India rules, this website is for information
 
 def org_schema():
     return {
-        "@type": ["LegalService", "Organization"],
+        "@type": ["LegalService", "LocalBusiness"],
         "@id": DOMAIN + "/#firm",
         "name": FIRM["name"],
         "url": DOMAIN + "/",
@@ -75,7 +75,11 @@ def org_schema():
         "description": "Advocate's practice in Sector 38, Gurugram (Gurgaon), Haryana, advising founders and growing companies on corporate, commercial and regulatory matters.",
         "address": {"@type": "PostalAddress", "streetAddress": FIRM["street"], "addressLocality": FIRM["city"],
                     "addressRegion": FIRM["region"], "postalCode": FIRM["pin"], "addressCountry": "IN"},
-        "areaServed": [{"@type": "City", "name": "Gurugram", "alternateName": "Gurgaon"}, {"@type": "Country", "name": "India"}],
+        "areaServed": [{"@type": "City", "name": "Gurugram", "alternateName": "Gurgaon"}, {"@type": "City", "name": "New Delhi"}, {"@type": "City", "name": "Noida"}, {"@type": "Country", "name": "India"}],
+        "hasMap": "https://www.google.com/maps/search/?api=1&query=Millennium+Chambers+325H+Sector+38+Gurugram",
+        "priceRange": "On request",
+        "image": DOMAIN + "/assets/img/og-default.jpg",
+        "logo": DOMAIN + "/assets/icon-512.png",
         "knowsAbout": ["Startup law", "Venture capital transactions", "Commercial contracts", "DPDP Act 2023",
                        "Labour Codes", "Gig worker compliance", "Consumer protection", "FSSAI food and nutraceutical regulation", "Trademarks", "Commercial leasing",
                        "Debt recovery", "Cheque bounce cases under Section 138 NI Act", "SARFAESI Act", "Insolvency and Bankruptcy Code",
@@ -90,7 +94,7 @@ def person_schema():
         "@type": "Person",
         "@id": DOMAIN + "/varun-bhutani-advocate-gurugram#varun",
         "name": "Varun Bhutani",
-        "jobTitle": "Advocate and Independent Partner",
+        "jobTitle": "Managing Advocate",
         "worksFor": {"@id": DOMAIN + "/#firm"},
         "url": DOMAIN + "/varun-bhutani-advocate-gurugram",
         "alumniOf": [{"@type": "CollegeOrUniversity", "name": "Ramaiah College of Law, Bengaluru"},
@@ -106,7 +110,7 @@ def person_schema():
 def esc(s):
     return html.escape(s, quote=True)
 
-CSS_VER = "1"
+CSS_VER = "2"
 
 def page(slug, title, description, body, h1, *, schema_extra=None, image=None, lead=None, crumbs=True, kind="page"):
     url = DOMAIN + ("/" if slug == "" else "/" + slug)
@@ -189,7 +193,8 @@ def page(slug, title, description, body, h1, *, schema_extra=None, image=None, l
       Partnerships: <a href="mailto:{FIRM['partner']}">{FIRM['partner']}</a><br>
       Internships: <a href="mailto:{FIRM['internships']}">{FIRM['internships']}</a><br>
       Billing: <a href="mailto:{FIRM['invoice']}">{FIRM['invoice']}</a><br>
-      <a href="{FIRM['wa']}">WhatsApp {FIRM['phone']}</a></address>
+      <a href="tel:+919217648824">Call {FIRM['phone']}</a> · <a href="{FIRM['wa']}">WhatsApp</a><br>
+      Serving clients in Gurugram, New Delhi and Noida</address>
     </div>
     <div>
       <p class="fhead">Guides for founders</p>
@@ -204,6 +209,8 @@ def page(slug, title, description, body, h1, *, schema_extra=None, image=None, l
         <li><a href="/debt-recovery-lawyer-gurgaon">Debt recovery lawyer in Gurgaon</a></li>
         <li><a href="/nbfc-fintech-lawyer-gurgaon">NBFC &amp; fintech lawyer in Gurgaon</a></li>
         <li><a href="/legal-retainer-outside-counsel-startups">Legal retainer for startups</a></li>
+        <li><a href="/hrera-advocate-gurugram">HRERA advocate in Gurugram</a></li>
+        <li><a href="/startup-lawyer-delhi">Startup lawyer, Delhi</a> · <a href="/startup-lawyer-noida">Noida</a></li>
         <li><a href="/business-registrations-licences-india">Registrations &amp; licences</a></li>
         <li><a href="/startup-insights">Startup Insights</a></li>
         <li><a href="{FIRM['linkedin_firm']}">LinkedIn</a> · <a href="{FIRM['youtube']}">YouTube</a></li>
@@ -226,19 +233,25 @@ def page(slug, title, description, body, h1, *, schema_extra=None, image=None, l
     </select>
     <label for="h-name">Your name</label>
     <input id="h-name" autocomplete="name" required>
+    <label for="h-email">Your email or phone</label>
+    <input id="h-email" autocomplete="email" required>
     <label for="h-msg">Your question</label>
     <textarea id="h-msg" rows="4" required placeholder="Briefly describe what you need help with"></textarea>
-    <button type="submit" class="btn">Send by email</button>
-    <p class="help-alt">Or WhatsApp <a href="{FIRM['wa']}">{FIRM['phone']}</a>. Your email app will open with the message ready to send to <span id="h-to">{FIRM['email']}</span>.</p>
+    <button type="submit" class="btn" id="h-send">Send</button>
+    <p class="help-alt" id="h-status">Or WhatsApp <a href="{FIRM['wa']}">{FIRM['phone']}</a>. Your message goes to <span id="h-to">{FIRM['email']}</span>.</p>
     <p class="note">Please do not share confidential details here. Contacting us does not create an advocate-client relationship.</p>
   </form>
 </div>
 <script>
 function mcHelp(o){{var d=document.getElementById('help'),b=document.querySelector('.help-fab');if(o===undefined)o=d.hidden;d.hidden=!o;b.setAttribute('aria-expanded',o);if(o)document.getElementById('h-topic').focus();}}
 document.addEventListener('change',function(e){{if(e.target.id==='h-topic')document.getElementById('h-to').textContent=e.target.value;}});
-function mcSend(e){{e.preventDefault();var t=document.getElementById('h-topic'),n=document.getElementById('h-name').value.trim(),m=document.getElementById('h-msg').value.trim();
+function mcSend(e){{e.preventDefault();var t=document.getElementById('h-topic'),n=document.getElementById('h-name').value.trim(),c=document.getElementById('h-email').value.trim(),m=document.getElementById('h-msg').value.trim(),st=document.getElementById('h-status'),btn=document.getElementById('h-send');
 var sub=t.options[t.selectedIndex].text+' - website query from '+n;
-location.href='mailto:'+t.value+'?subject='+encodeURIComponent(sub)+'&body='+encodeURIComponent(m+'\\n\\n'+n);return false;}}
+function fallback(){{location.href='mailto:'+t.value+'?subject='+encodeURIComponent(sub)+'&body='+encodeURIComponent(m+'\\n\\n'+n+' ('+c+')');}}
+btn.disabled=true;btn.textContent='Sending...';
+fetch('https://formsubmit.co/ajax/'+t.value,{{method:'POST',headers:{{'Content-Type':'application/json','Accept':'application/json'}},body:JSON.stringify({{_subject:sub,name:n,contact:c,message:m,page:location.href,_template:'table',_captcha:'false'}})}})
+.then(function(r){{return r.json();}}).then(function(d){{if(d&&(d.success===true||d.success==='true')){{st.textContent='Thank you. Your message has been sent and we will reply shortly.';e.target.reset();btn.textContent='Sent';}}else{{fallback();btn.disabled=false;btn.textContent='Send';}}}})
+.catch(function(){{fallback();btn.disabled=false;btn.textContent='Send';}});return false;}}
 </script>
 </body>
 </html>
@@ -340,8 +353,8 @@ def build_inner(slug, meta):
 
 def build_home():
     title = "Millennium Chambers | Advocate & Startup Lawyer in Gurugram (Gurgaon)"
-    desc = ("Millennium Chambers is a Gurugram-based legal practice advising Indian founders and growing companies on "
-            "corporate, commercial and regulatory matters: fundraising, contracts, DPDP, Labour Codes and disputes.")
+    desc = ("Advocate Varun Bhutani's practice in Sector 38, Gurugram: startup, corporate, contracts, DPDP, Labour Codes, "
+            "debt recovery and RERA matters.")
     areas = [
         ("Startups & venture capital", "Incorporation, founder and shareholder agreements, ESOPs, term sheets, investment documentation and post-closing compliance."),
         ("Commercial contracts", "Vendor, customer, SaaS, payment-gateway, franchise and partnership agreements."),
@@ -361,14 +374,14 @@ def build_home():
               ("MrQHZOz9YGk", "NCLAT on share-purchase money and Section 5(8) IBC")]
     vid_html = "".join(
         f'<li><a class="video" href="https://www.youtube.com/watch?v={v}" rel="noopener">'
-        f'<img src="https://i.ytimg.com/vi/{v}/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">'
+        f'<img src="https://i.ytimg.com/vi/{v}/hqdefault.jpg" alt="{esc(t)} (video thumbnail)" loading="lazy" width="480" height="360">'
         f'<span class="play" aria-hidden="true"></span><strong>{esc(t)}</strong></a></li>' for v, t in videos)
     faq = [
         ("Where is Millennium Chambers located?", "Millennium Chambers is at 325H, Sector 38, Gurugram (Gurgaon), Haryana 122001, and works with founders and companies across India, and with companies and law firms abroad on their Indian matters."),
         ("Does Millennium Chambers work with companies outside India?", "Yes. It acts as India-side counsel for foreign companies and law firms: recovering dues from Indian parties, enforcing foreign judgments and arbitral awards, compliance with Indian law, licences and registrations, and setting up in India."),
         ("Is Millennium Chambers an advocate's office in Gurgaon?", "Yes. It is the practice of Advocate Varun Bhutani, enrolled with the Bar Council of Delhi (Enrolment No. D/9450/2018), with its office in Sector 38, Gurugram, the city also known as Gurgaon."),
         ("What kind of matters does Millennium Chambers handle?", "Corporate, commercial and regulatory work for startups and growing companies: incorporation and fundraising documents, commercial contracts, DPDP Act and Labour Code compliance, consumer protection, FSSAI labelling and claims for food and nutraceutical brands, trademarks, commercial leases, legal notices and arbitration support."),
-        ("Who leads Millennium Chambers?", "Advocate Varun Bhutani, enrolled with the Bar Council of Delhi since December 2018, is the Independent Partner. He has worked in-house with technology and consumer companies, most recently as Head of Legal at YesMadam."),
+        ("Who leads Millennium Chambers?", "Advocate Varun Bhutani, enrolled with the Bar Council of Delhi since December 2018, is the Managing Advocate. He has worked in-house with technology and consumer companies, most recently as Head of Legal at YesMadam."),
         ("When do the main DPDP Act obligations apply?", "Under the DPDP Rules, 2025, consent manager rules apply from 13 November 2026 and the core obligations for data fiduciaries apply from 13 May 2027."),
     ]
     faq_html = "".join(f"<details><summary>{esc(q)}</summary><p>{esc(a)}</p></details>" for q, a in faq)
@@ -377,8 +390,8 @@ def build_home():
     body = f"""
 <section class="hero">
   <div class="wrap">
-    <p class="eyebrow">Advocate in Gurugram (Gurgaon) · Corporate, commercial &amp; regulatory law</p>
-    <h1>Legal counsel for India's startups</h1>
+    <p class="eyebrow">Legal counsel for India's startups · Gurugram · New Delhi · Noida</p>
+    <h1>Advocate &amp; startup lawyer in Gurugram (Gurgaon)</h1>
     <p class="lead">Millennium Chambers is the practice of Advocate Varun Bhutani in Sector 38, Gurugram (Gurgaon), advising founders and growing companies on corporate, commercial and regulatory matters, from incorporation and fundraising to contracts, compliance and disputes.</p>
     <p class="cta"><a class="btn" href="/startup-corporate-law-practice-areas-gurugram">Practice areas</a> <a class="btn ghost" href="#guides">Guides for founders</a></p>
   </div>
@@ -395,6 +408,8 @@ def build_home():
     <p><a class="more" href="/business-registrations-licences-india">Starting up? Business registrations and licences: Udyam, GST, FSSAI, IEC and more</a></p>
     <p><a class="more" href="/india-legal-counsel-foreign-companies">Outside India? Recovery, compliance and licences for foreign companies and law firms</a></p>
     <p><a class="more" href="/reply-to-legal-notice-gurugram">Received a legal notice in Gurugram? How a reply works</a></p>
+    <p><a class="more" href="/hrera-advocate-gurugram">Builder delayed possession? RERA complaints before HRERA Gurugram</a></p>
+    <p><a class="more" href="/startup-lawyer-delhi">Based in Delhi? Startup lawyer for Delhi companies</a> · <a class="more" href="/startup-lawyer-noida">Based in Noida? Startup lawyer for Noida companies</a></p>
     <p><a class="more" href="/legal-retainer-outside-counsel-startups">Legal retainer: an outside legal team for companies without an in-house lawyer</a></p>
   </div>
 </section>
@@ -427,7 +442,7 @@ def build_home():
   <div class="wrap two">
     <div>
       <h2 id="ab">About</h2>
-      <p><strong>Varun Bhutani, Independent Partner.</strong> LL.M. (Corporate Law), MUIT University, Noida (2020); BA LLB, Ramaiah College of Law, Bengaluru (2018). Nearly eight years in legal practice, most of them in-house with technology and consumer businesses, most recently as Head of Legal at YesMadam, and earlier with Zypp Electric, Ecom Express and OfBusiness/Oxyzo, after beginning in litigation practice before the Delhi High Court. Guest lecturer at law schools in the NCR.</p>
+      <p><strong>Varun Bhutani, Managing Advocate.</strong> LL.M. (Corporate Law), MUIT University, Noida (2020); BA LLB, Ramaiah College of Law, Bengaluru (2018). Nearly eight years in legal practice, most of them in-house with technology and consumer businesses, most recently as Head of Legal at YesMadam, and earlier with Zypp Electric, Ecom Express and OfBusiness/Oxyzo, after beginning in litigation practice before the Delhi High Court. Guest lecturer at law schools in the NCR.</p>
       <p><a class="more" href="/varun-bhutani-advocate-gurugram">Full profile of Advocate Varun Bhutani</a></p>
       <h3>Internships</h3>
       <p>We take a small number of recent law graduates (not current students) for internships focused on legal research and regulatory compliance for startups (no litigation work). To apply, email your CV and a short note on your areas of interest to <a href="mailto:{FIRM['internships']}?subject=Internship%20Application">{FIRM['internships']}</a> with the subject "Internship Application".</p>
@@ -440,11 +455,12 @@ def build_home():
         Partnerships &amp; collaborations: <a href="mailto:{FIRM['partner']}">{FIRM['partner']}</a><br>
         Internships: <a href="mailto:{FIRM['internships']}">{FIRM['internships']}</a><br>
         Billing &amp; invoices: <a href="mailto:{FIRM['invoice']}">{FIRM['invoice']}</a><br>
-        WhatsApp: <a href="{FIRM['wa']}">{FIRM['phone']}</a><br>
+        Phone: <a href="tel:+919217648824">{FIRM['phone']}</a> · WhatsApp: <a href="{FIRM['wa']}">{FIRM['phone']}</a><br>
         <a href="{FIRM['linkedin_firm']}">LinkedIn: Millennium Chambers</a><br>
         <a href="{FIRM['youtube']}">YouTube: startup law explainers</a>
       </address>
       <p><button type="button" class="btn" onclick="mcHelp(true)">Ask a question</button></p>
+      <iframe class="map" title="Map: Millennium Chambers, 325H Sector 38, Gurugram" src="https://www.google.com/maps?q=325H+Sector+38+Gurugram+Haryana+122001&amp;output=embed" width="100%" height="260" style="border:0;border-radius:8px" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       <p class="note">Under the rules of the Bar Council of India, advocates are not permitted to solicit work or advertise. This website is for general information only and does not constitute solicitation, advertisement or legal advice. By using it, you acknowledge that you are seeking information about Millennium Chambers of your own accord and that no advocate-client relationship is created by viewing this website or contacting us through it.</p>
     </div>
   </div>

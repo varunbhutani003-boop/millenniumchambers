@@ -1,7 +1,7 @@
 {
   "varun-bhutani-advocate-gurugram": {
     "title": "Varun Bhutani — Advocate, Gurugram (Gurgaon) | Startup & Corporate Lawyer",
-    "description": "Varun Bhutani is an advocate in Gurugram (Gurgaon), enrolled with the Bar Council of Delhi since 2018, and Independent Partner of Millennium Chambers, advising on corporate, DPDP, labour and fundraising law.",
+    "description": "Varun Bhutani is an advocate in Gurugram (Gurgaon), enrolled with the Bar Council of Delhi since 2018, and Managing Advocate of Millennium Chambers, advising on corporate, DPDP, labour and fundraising law.",
     "type": "person",
     "nav": "Advocate Varun Bhutani",
     "image": "/assets/img/varun-bhutani-advocate.jpg",
@@ -131,5 +131,23 @@
     "title": "MCA Filings After Company Incorporation in India: What You Can File Yourself | Millennium Chambers",
     "description": "Post-incorporation and annual MCA filings for a private company: INC-20A, ADT-1, AOC-4, MGT-7A, DPT-3, MSME-1 and director KYC, and which forms a small company can file without a professional.",
     "type": "article"
+  },
+  "hrera-advocate-gurugram": {
+    "title": "HRERA Advocate in Gurugram | RERA Complaints, Refunds & Delayed Possession",
+    "description": "RERA complaints before the Haryana Real Estate Regulatory Authority, Gurugram: refunds with interest, delay interest, defects and appeals, with Advocate Varun Bhutani, Sector 38.",
+    "type": "page",
+    "faq": true
+  },
+  "startup-lawyer-delhi": {
+    "title": "Startup Lawyer for Delhi Companies | Advocate Varun Bhutani, Millennium Chambers",
+    "description": "Startup lawyer for New Delhi companies: Advocate Varun Bhutani (Bar Council of Delhi) on founders' agreements, fundraising, contracts, DPDP, Labour Codes and recovery.",
+    "type": "page",
+    "faq": true
+  },
+  "startup-lawyer-noida": {
+    "title": "Startup Lawyer for Noida Companies | Advocate Varun Bhutani, Millennium Chambers",
+    "description": "Startup lawyer for Noida and Greater Noida companies: contracts, fundraising, gig-worker and Labour Code compliance, consumer matters and leases, from YesMadam's former Head of Legal.",
+    "type": "page",
+    "faq": true
   }
 }
