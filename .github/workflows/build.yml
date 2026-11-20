@@ -1,0 +1,27 @@
+name: Build site
+on:
+  push:
+    branches: [main]
+    paths: ['content/**', 'build.py', 'pages.json', 'assets-src/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: build-site
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install markdown
+      - run: python build.py
+      - name: Commit rebuilt docs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898341+github-actions[bot]@users.noreply.github.com"
+          git add -A docs
+          git diff --cached --quiet || (git commit -m "Build site from content" && git pull --rebase && git push)
