@@ -36,6 +36,10 @@ Much of Varun's in-house work has been on the commercial side of fast-growing co
 
 A large share of commercial disputes in Gurugram begin and often end with an exchange of legal notices. Over his in-house years with a lender, a logistics company, an EV-fleet operator and a consumer platform, Varun has worked on payment and recovery demands, Section 138 cheque-dishonour notices and responses to consumer complaints. His approach starts from the documents (the contract, invoices, ledgers and correspondence) and checks the legal timelines that a notice can trigger, such as the 15-day payment window under Section 138 of the Negotiable Instruments Act, pre-institution mediation under Section 12A of the Commercial Courts Act, 2015 for commercial suits, and the effect of a written acknowledgment of debt under Section 18 of the Limitation Act, 1963. Read his guide: [how to reply to a legal notice in Gurugram](/reply-to-legal-notice-gurugram).
 
+### Focus: employment contracts and restrictive covenants
+
+Having led legal teams at companies with large on-roll and gig workforces, including an EV-fleet operator, a logistics network and a beauty-services platform, Varun has drafted and reviewed appointment letters, consultant and freelancer agreements, confidentiality and intellectual-property assignment clauses, and exit documentation for employees at every level. A recurring question from founders is how far a non-compete clause can protect the business. Under Section 27 of the Indian Contract Act, 1872, a restraint that operates after employment ends is generally void, while exclusivity during employment, garden leave, confidentiality and IP assignment can be enforced. His work in this area focuses on drafting the protections a court is likely to uphold, and on the founder and shareholder covenants that investors ask for in funding rounds. Read his guide: [non-compete clauses in India under Section 27](/non-compete-clause-india-section-27-startups).
+
 ### Education
 
 LL.M. in Corporate Law, MUIT University, Noida (2020). B.A. LL.B., Ramaiah College of Law, Bengaluru (2018), with contract law classes at the National Law School of India University (NLSIU), Bengaluru. Enrolled as an advocate with the Bar Council of Delhi in December 2018. Family roots in Hansi, Haryana.
@@ -62,6 +66,9 @@ Startup and venture-capital transactions, commercial contracts, debt recovery an
 **Is Varun Bhutani enrolled as an advocate?**
 Yes. He was enrolled as an advocate with the Bar Council of Delhi in December 2018 and practises from Millennium Chambers, 325H, Sector 38, Gurugram.
 
+**Which bar council is Varun Bhutani enrolled with?**
+The Bar Council of Delhi, since December 2018. He practises from Millennium Chambers, which serves clients in Gurugram, New Delhi and Noida.
+
 **Where did Varun Bhutani study law?**
 He holds an LL.M. in Corporate Law from MUIT University, Noida (2020) and a B.A. LL.B. from Ramaiah College of Law, Bengaluru (2018), and took contract law classes at NLSIU, Bengaluru.
 
@@ -79,6 +86,6 @@ He holds an LL.M. in Corporate Law from MUIT University, Noida (2020) and a B.A.
 
 ### Guides by Varun Bhutani on this site
 
-[ESOPs for startups in India](/esop-startups-india-legal-guide) · [India's Labour Codes: a startup guide](/labour-codes-startups-india-guide) · [Trademark registration for startups](/trademark-registration-startups-india) · [Practice areas](/startup-corporate-law-practice-areas-gurugram) · [Startup Insights](/startup-insights) · [Founders' agreements for startups](/founders-agreement-startups-india) · [DPDP Act compliance for startups](/dpdp-act-compliance-startups-india) · [Term sheets for startups](/term-sheet-startups-india) · [MSME payment recovery under the MSMED Act](/msme-delayed-payment-recovery-msmed-act) · [How to reply to a legal notice](/reply-to-legal-notice-gurugram)
+[ESOPs for startups in India](/esop-startups-india-legal-guide) · [India's Labour Codes: a startup guide](/labour-codes-startups-india-guide) · [Trademark registration for startups](/trademark-registration-startups-india) · [Practice areas](/startup-corporate-law-practice-areas-gurugram) · [Startup Insights](/startup-insights) · [Founders' agreements for startups](/founders-agreement-startups-india) · [DPDP Act compliance for startups](/dpdp-act-compliance-startups-india) · [Term sheets for startups](/term-sheet-startups-india) · [MSME payment recovery under the MSMED Act](/msme-delayed-payment-recovery-msmed-act) · [How to reply to a legal notice](/reply-to-legal-notice-gurugram) · [Non-compete clauses in India](/non-compete-clause-india-section-27-startups) · [Cheque bounce under Section 138](/cheque-bounce-section-138-guide-businesses) · [Licences in the first 90 days](/licences-gurugram-startup-first-90-days) · [MCA filings after incorporation](/mca-filings-after-company-incorporation-india) · [FSSAI registration limits](/fssai-registration-licence-2026-turnover-limits) · [HRERA matters in Gurugram](/hrera-advocate-gurugram)
 
 This page is for information only and is not an advertisement or solicitation, in line with the Bar Council of India Rules.
