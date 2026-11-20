@@ -2,8 +2,11 @@
 <html lang="en-IN">
 <head>
 <meta charset="utf-8">
-<script>try{if(sessionStorage.getItem("mc_bci_seen"))document.documentElement.className+=" bci-seen";else sessionStorage.setItem("mc_bci_seen","1")}catch(e){}</script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
+gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});
+try{var a=JSON.parse(localStorage.getItem("mc_agree")||"null");if(a&&Date.now()-a.t<2592e6){document.documentElement.className+=" agreed";if(a.stats)gtag('consent','update',{analytics_storage:'granted'});}}catch(e){}</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Privacy Policy | Millennium Chambers, Gurugram</title>
 <meta name="description" content="How Millennium Chambers collects, uses, stores and protects information shared through this website, and how to contact us about your data.">
 <link rel="canonical" href="https://www.millenniumchambers.in/privacy-policy/">
@@ -25,7 +28,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/site.css?v=2">
+<link rel="stylesheet" href="/assets/site.css?v=3">
 <script type="application/ld+json">
 {
  "@context": "https://schema.org",
@@ -101,7 +104,7 @@
    },
    "sameAs": [
     "https://www.linkedin.com/company/millennium-chambers-gurugram",
-    "https://www.youtube.com/@varunvibe003",
+    "https://www.youtube.com/@VarunBhutaniLaw",
     "https://www.crunchbase.com/organization/millennium-chambers-1c85"
    ]
   },
@@ -126,11 +129,24 @@
 }
 </script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3J7MX1NHP5"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-3J7MX1NHP5');</script>
+<script>gtag('js',new Date());gtag('config','G-3J7MX1NHP5',{anonymize_ip:true});</script>
 </head>
 <body class="inner">
 <a class="skip" href="#main">Skip to main content</a>
-<div class="bci" id="bci" role="note"><div class="wrap">As per Bar Council of India rules, this website is for information only and is not a solicitation or advertisement. <a href="/disclaimer/">Read the disclaimer</a><button type="button" class="bci-x" aria-label="Close notice" onclick="document.getElementById('bci').remove()">&times;</button></div></div>
+<div class="gate" id="gate" role="dialog" aria-modal="true" aria-labelledby="gate-h">
+  <div class="gate-box">
+    <p class="gate-h" id="gate-h">Disclaimer</p>
+    <p>The Bar Council of India does not permit advocates to solicit work or advertise. By clicking "I agree", you confirm that:</p>
+    <ul>
+      <li>you are seeking information about Millennium Chambers and Advocate Varun Bhutani of your own accord, and there has been no advertisement, solicitation, invitation or inducement of any kind from us;</li>
+      <li>the information on this website is for general information only and is not legal advice; and</li>
+      <li>using this website or contacting us through it does not create an advocate-client relationship.</li>
+    </ul>
+    <p>Please read the full <a href="/disclaimer/">Disclaimer</a>, <a href="/privacy-policy/">Privacy Policy</a> and <a href="/terms-of-use/">Terms of Use</a>.</p>
+    <label class="gate-ck"><input type="checkbox" id="gate-stats"><span>Allow analytics cookies (Google Analytics), used only to count visits by page and region. Optional; the site works fully without them.</span></label>
+    <p class="gate-act"><button type="button" class="btn" id="gate-ok" onclick="mcAgree()">I agree</button> <a class="gate-out" href="https://www.google.com/">I do not agree, leave the site</a></p>
+  </div>
+</div>
 <header class="site">
   <div class="wrap bar">
     <a class="brand" href="/" aria-label="Millennium Chambers home"><span class="mark" aria-hidden="true">MC</span><span>Millennium Chambers</span></a>
@@ -151,17 +167,82 @@
 <article class="prose">
 
 
-<p>Last updated: 27 October 2026</p>
-<p>This Privacy Policy explains how Millennium Chambers ("we", "us") collects, uses and protects personal data through <a href="http://www.millenniumchambers.in">www.millenniumchambers.in</a>, in line with the Digital Personal Data Protection Act, 2023 and the Information Technology Act, 2000.</p>
-<h3 id="information-we-collect">Information We Collect</h3>
-<p>You can browse this website without giving us any personal data. We collect only the information you choose to send us, such as your name, email address, phone number, the details of your query and, for internship applicants, your CV. Our website host (GitHub Pages) may automatically log technical information such as your IP address and browser type, and we use Google Analytics to count visits by page and region through cookies. Visitor statistics are seen only by us.</p>
-<h3 id="how-we-use-your-information">How We Use Your Information</h3>
-<p>We use your information only to respond to your enquiry, carry out conflict checks, evaluate internship applications and meet our legal and professional obligations. By sending us your information, you consent to its use for these purposes. We do not sell, rent or trade personal data, and we do not use it for marketing without your consent.</p>
-<h3 id="sharing-retention-and-security">Sharing, Retention and Security</h3>
-<p>We share personal data only with service providers we rely on to run this website and our email (such as GitHub, Google and FormSubmit, which delivers messages sent through the website's query form to our email), or where required by law, a court or a regulator. We keep personal data only for as long as needed for the purpose it was collected; internship applications are deleted within 12 months unless the applicant is engaged. We use reasonable safeguards to protect your data, but no transmission over the internet is completely secure.</p>
-<h3 id="your-rights-and-grievance-redressal">Your Rights and Grievance Redressal</h3>
-<p>Subject to applicable law, you may ask to access, correct, update or erase your personal data, withdraw your consent, or nominate another person to exercise these rights on your behalf. For any such request or grievance, write to our Grievance Officer, Varun Bhutani, at <a href="mailto:info@millenniumchambers.in">info@millenniumchambers.in</a>. We will respond within the time prescribed by law. You may also approach the Data Protection Board of India.</p>
-<h3 id="changes-to-this-policy">Changes to This Policy</h3>
+<p>Last updated: 20 November 2026</p>
+<p>This Privacy Policy explains how Millennium Chambers, the legal practice of Advocate Varun Bhutani at 325H, Sector 38, Gurugram, Haryana 122001 ("we", "us"), collects, uses and protects personal data through <a href="https://www.millenniumchambers.in">www.millenniumchambers.in</a>. It is written in line with the Digital Personal Data Protection Act, 2023, the Digital Personal Data Protection Rules, 2025, the Information Technology Act, 2000 and the rules made under it.</p>
+<h3 id="what-we-collect-and-why">What we collect, and why</h3>
+<p>You can browse this website without giving us any personal data. We collect only the following.</p>
+<table>
+<thead>
+<tr>
+<th>Personal data</th>
+<th>Where it comes from</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Name, email address or phone number, and the text of your question</td>
+<td>The "Need help?" form, or an email or WhatsApp message you send us</td>
+<td>To reply to your query and carry out a conflict check before any engagement</td>
+</tr>
+<tr>
+<td>CV and covering note</td>
+<td>Internship or job applications sent to our email</td>
+<td>To assess your application</td>
+</tr>
+<tr>
+<td>Billing contact details</td>
+<td>Invoice-related emails</td>
+<td>To issue and follow up invoices</td>
+</tr>
+<tr>
+<td>Visit statistics (pages viewed, approximate region, device and browser type)</td>
+<td>Google Analytics, only if you allow analytics cookies</td>
+<td>To understand which pages are useful</td>
+</tr>
+<tr>
+<td>IP address and browser type in server logs</td>
+<td>Our website host, GitHub Pages</td>
+<td>Security and keeping the site running</td>
+</tr>
+</tbody>
+</table>
+<p>We do not ask for, and ask you not to send, confidential case details, identity documents or financial account information through this website.</p>
+<h3 id="consent">Consent</h3>
+<p>We process the personal data you send us on the basis of your consent, which you give by ticking the consent box on the form or by writing to us, and for the purpose stated above. You may withdraw consent at any time by writing to <a href="mailto:info@millenniumchambers.in">info@millenniumchambers.in</a>. Withdrawal does not affect processing already carried out, and we may still keep data where the law requires it.</p>
+<h3 id="cookies">Cookies</h3>
+<p>This website uses no advertising or tracking cookies. If, and only if, you tick "Allow analytics cookies" in the notice shown on your first visit, Google Analytics sets the cookies <code>_ga</code> and <code>_ga_&lt;ID&gt;</code> (stored for up to two years) to count visits. If you do not tick it, these cookies are not set, and Google receives only cookieless signals with no identifier. Your choice is stored in your browser for 30 days, and you can change it at any time through "Cookie settings" at the foot of every page. The site also stores a small record in your browser that you have accepted the disclaimer.</p>
+<h3 id="who-we-share-data-with">Who we share data with</h3>
+<p>We do not sell, rent or trade personal data, and we do not use it for marketing. We share it only with service providers who help us run this website and our email, for the purposes above:</p>
+<ul>
+<li><strong>GitHub, Inc.</strong> (website hosting), United States</li>
+<li><strong>Google LLC</strong> (Gmail and, if you allow it, Google Analytics), United States</li>
+<li><strong>FormSubmit</strong> (delivers messages from the website form to our email)</li>
+<li><strong>ImprovMX</strong> (forwards email sent to our millenniumchambers.in addresses to our inbox)</li>
+</ul>
+<p>Because these providers may store data outside India, your personal data may be transferred to and processed in other countries, subject to any restriction notified by the Government of India under section 16 of the DPDP Act. We may also disclose personal data where required by law, a court, a regulator or the Bar Council.</p>
+<h3 id="how-long-we-keep-it">How long we keep it</h3>
+<p>Website queries that do not lead to an engagement are deleted within 12 months. Internship and job applications are deleted within 12 months unless the applicant is engaged. Records of an engagement are kept for as long as professional and legal obligations require. Analytics data is kept for the period set in our Google Analytics account, not longer than 14 months.</p>
+<h3 id="security">Security</h3>
+<p>We use reasonable safeguards, including HTTPS across the whole site and access-controlled email accounts. No transmission over the internet is completely secure, which is one reason we ask you not to send confidential details through the website.</p>
+<h3 id="children">Children</h3>
+<p>This website is not directed at children. We do not knowingly collect personal data of anyone under 18. If you are under 18, please do not send us personal data through this website without the involvement of a parent or lawful guardian.</p>
+<h3 id="your-rights">Your rights</h3>
+<p>Subject to applicable law, you may ask us to:</p>
+<ul>
+<li>tell you what personal data we hold about you and how it is used;</li>
+<li>correct, complete or update it;</li>
+<li>erase it where it is no longer needed;</li>
+<li>withdraw your consent; and</li>
+<li>nominate another person to exercise these rights on your behalf in the event of your death or incapacity.</li>
+</ul>
+<h3 id="grievance-officer">Grievance Officer</h3>
+<p>For any request or complaint about your personal data, contact our Grievance Officer:</p>
+<p><strong>Varun Bhutani</strong>, Managing Advocate, Millennium Chambers
+325H, Sector 38, Gurugram, Haryana 122001
+Email: <a href="mailto:info@millenniumchambers.in">info@millenniumchambers.in</a></p>
+<p>We will acknowledge your request promptly and resolve it within 30 days. If you are not satisfied with our response, you may approach the Data Protection Board of India.</p>
+<h3 id="changes-to-this-policy">Changes to this policy</h3>
 <p>We may update this Privacy Policy from time to time. The updated version will be posted on this page with a revised date.</p>
 
 </article>
@@ -209,8 +290,8 @@
         <li><a href="/startup-lawyer-delhi/">Startup lawyer, Delhi</a> · <a href="/startup-lawyer-noida/">Noida</a></li>
         <li><a href="/business-registrations-licences-india/">Registrations &amp; licences</a></li>
         <li><a href="/startup-insights/">Startup Insights</a></li>
-        <li><a href="https://www.linkedin.com/company/millennium-chambers-gurugram">LinkedIn</a> · <a href="https://www.youtube.com/@varunvibe003">YouTube</a></li>
-        <li><a href="/disclaimer/">Disclaimer</a> · <a href="/privacy-policy/">Privacy</a> · <a href="/terms-of-use/">Terms</a></li>
+        <li><a href="https://www.linkedin.com/company/millennium-chambers-gurugram">LinkedIn</a> · <a href="https://www.youtube.com/@VarunBhutaniLaw">YouTube</a></li>
+        <li><a href="/disclaimer/">Disclaimer</a> · <a href="/privacy-policy/">Privacy</a> · <a href="/terms-of-use/">Terms</a> · <button type="button" class="linkbtn" onclick="mcGate(true)">Cookie settings</button></li>
       </ul>
     </div>
   </div>
@@ -233,15 +314,21 @@
     <input id="h-email" autocomplete="email" required>
     <label for="h-msg">Your question</label>
     <textarea id="h-msg" rows="4" required placeholder="Briefly describe what you need help with"></textarea>
+    <input type="text" id="h-hp" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" class="hp">
+    <label class="ck"><input type="checkbox" id="h-ok" required><span>I agree that Millennium Chambers may use these details only to reply to my query, as set out in the <a href="/privacy-policy/">Privacy Policy</a>.</span></label>
     <button type="submit" class="btn" id="h-send">Send</button>
     <p class="help-alt" id="h-status">Or WhatsApp <a href="https://wa.me/919217648824">+91 9217648824</a>. Your message goes to <span id="h-to">info@millenniumchambers.in</span>.</p>
     <p class="note">Please do not share confidential details here. Contacting us does not create an advocate-client relationship.</p>
   </form>
 </div>
 <script>
+function mcGate(o){var g=document.getElementById('gate');if(o){try{var a=JSON.parse(localStorage.getItem("mc_agree")||"null");document.getElementById('gate-stats').checked=!!(a&&a.stats);}catch(e){}document.documentElement.classList.remove('agreed');document.getElementById('gate-ok').focus();}}
+function mcAgree(){var s=document.getElementById('gate-stats').checked;try{localStorage.setItem("mc_agree",JSON.stringify({t:Date.now(),stats:s}));}catch(e){}gtag('consent','update',{analytics_storage:s?'granted':'denied'});document.documentElement.classList.add('agreed');}
+if(!document.documentElement.classList.contains('agreed')){var gb=document.getElementById('gate-ok');if(gb)gb.focus();}
+document.addEventListener('keydown',function(e){if(e.key==='Tab'&&!document.documentElement.classList.contains('agreed')){var f=document.querySelectorAll('#gate a,#gate button,#gate input');if(!f.length)return;var x=f[0],y=f[f.length-1];if(e.shiftKey&&document.activeElement===x){e.preventDefault();y.focus();}else if(!e.shiftKey&&document.activeElement===y){e.preventDefault();x.focus();}else if(!document.getElementById('gate').contains(document.activeElement)){e.preventDefault();x.focus();}}});
 function mcHelp(o){var d=document.getElementById('help'),b=document.querySelector('.help-fab');if(o===undefined)o=d.hidden;d.hidden=!o;b.setAttribute('aria-expanded',o);if(o)document.getElementById('h-topic').focus();}
 document.addEventListener('change',function(e){if(e.target.id==='h-topic')document.getElementById('h-to').textContent=e.target.value;});
-function mcSend(e){e.preventDefault();var t=document.getElementById('h-topic'),n=document.getElementById('h-name').value.trim(),c=document.getElementById('h-email').value.trim(),m=document.getElementById('h-msg').value.trim(),st=document.getElementById('h-status'),btn=document.getElementById('h-send');
+function mcSend(e){e.preventDefault();if(document.getElementById('h-hp').value)return false;var t=document.getElementById('h-topic'),n=document.getElementById('h-name').value.trim(),c=document.getElementById('h-email').value.trim(),m=document.getElementById('h-msg').value.trim(),st=document.getElementById('h-status'),btn=document.getElementById('h-send');
 var sub=t.options[t.selectedIndex].text+' - website query from '+n;
 function fallback(){location.href='mailto:'+t.value+'?subject='+encodeURIComponent(sub)+'&body='+encodeURIComponent(m+'\n\n'+n+' ('+c+')');}
 btn.disabled=true;btn.textContent='Sending...';

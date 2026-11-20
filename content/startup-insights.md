@@ -290,7 +290,7 @@ The 13 November 2026 date directly affects only companies planning to operate as
 
 - [Entrackr — October 2026 monthly funding report](https://entrackr.com/monthly-funding-report-monthly-funding-report/indian-startup-funding-nosedives-475-to-678-mn-in-october-12775014)
 
-- [PIB — Government notifies DPDP Rules (14 Nov 2025)](https://www.pib.gov.in/PressReleasePage.aspx)
+- [PIB backgrounder — DPDP Rules, 2025 notified (17 Nov 2025, PDF)](https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc20251117695301.pdf)
 
 - [The Leaflet — DPDP Rules, 2025: commencement schedule](https://theleaflet.in/explainer/indias-new-digital-personal-data-protection-rules-2025-a-detailed-reading)
 
@@ -340,9 +340,9 @@ The MCA relief is about filing fees, not the AGM: the AGM timeline (for most com
 
 - [Entrackr — Jagruti Rehabilitation Centre Series A](https://entrackr.com/snippets/jagruti-rehabilitation-centre-raises-rs-28-cr-in-series-a-round-led-by-alkemi-12765269)
 
-- [MCA — General Circular No. 05/2026 (PDF)](https://www.mca.gov.in/bin/dms/getdocument)
+- [MCA — General Circular No. 05/2026 (PDF)](https://www.mca.gov.in/bin/dms/getdocument?mds=5vSiNq59rdjIZwZqMbEIgQ%253D%253D&type=open)
 
-- [MCA — General Circular No. 06/2026 (PDF)](https://www.mca.gov.in/bin/dms/getdocument)
+- [MCA — General Circulars (No. 06/2026 listed)](https://www.mca.gov.in/content/mca/global/en/acts-rules/ebooks/circulars.html)
 
 - [Ministry of MSME notification S.O. 5575(E) — summary (TeamLease RegTech)](https://teamleaseregtech.com/updates/article/60351/ministry-of-msme-commencement-of-provisions-of-the-msmed-amendment-act/)
 

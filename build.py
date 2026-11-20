@@ -33,7 +33,7 @@ FIRM = {
     "wa": "https://wa.me/919217648824",
     "linkedin_firm": "https://www.linkedin.com/company/millennium-chambers-gurugram",
     "linkedin_varun": "https://www.linkedin.com/in/varun-bhutani-2862b3158",
-    "youtube": "https://www.youtube.com/@varunvibe003",
+    "youtube": "https://www.youtube.com/@VarunBhutaniLaw",
     "superlawyer": "https://superlawyer.in/when-courtroom-strategy-meets-startup-innovation-the-journey-of-a-legal-leader-varun-bhutani",
 }
 
@@ -111,7 +111,7 @@ def person_schema():
 def esc(s):
     return html.escape(s, quote=True)
 
-CSS_VER = "2"
+CSS_VER = "3"
 
 def page(slug, title, description, body, h1, *, schema_extra=None, image=None, lead=None, crumbs=True, kind="page"):
     url = DOMAIN + ("/" if slug == "" else "/" + slug)
@@ -141,8 +141,11 @@ def page(slug, title, description, body, h1, *, schema_extra=None, image=None, l
 <html lang="en-IN">
 <head>
 <meta charset="utf-8">
-<script>try{{if(sessionStorage.getItem("mc_bci_seen"))document.documentElement.className+=" bci-seen";else sessionStorage.setItem("mc_bci_seen","1")}}catch(e){{}}</script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}
+gtag('consent','default',{{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'}});
+try{{var a=JSON.parse(localStorage.getItem("mc_agree")||"null");if(a&&Date.now()-a.t<2592e6){{document.documentElement.className+=" agreed";if(a.stats)gtag('consent','update',{{analytics_storage:'granted'}});}}}}catch(e){{}}</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(description)}">
 <link rel="canonical" href="{url}">
@@ -169,11 +172,24 @@ def page(slug, title, description, body, h1, *, schema_extra=None, image=None, l
 {ld}
 </script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3J7MX1NHP5"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag('js',new Date());gtag('config','G-3J7MX1NHP5');</script>
+<script>gtag('js',new Date());gtag('config','G-3J7MX1NHP5',{{anonymize_ip:true}});</script>
 </head>
 <body class="{'home' if slug == '' else 'inner'}">
 <a class="skip" href="#main">Skip to main content</a>
-<div class="bci" id="bci" role="note"><div class="wrap">{esc(BCI_SHORT)} <a href="/disclaimer">Read the disclaimer</a><button type="button" class="bci-x" aria-label="Close notice" onclick="document.getElementById('bci').remove()">&times;</button></div></div>
+<div class="gate" id="gate" role="dialog" aria-modal="true" aria-labelledby="gate-h">
+  <div class="gate-box">
+    <p class="gate-h" id="gate-h">Disclaimer</p>
+    <p>The Bar Council of India does not permit advocates to solicit work or advertise. By clicking "I agree", you confirm that:</p>
+    <ul>
+      <li>you are seeking information about Millennium Chambers and Advocate Varun Bhutani of your own accord, and there has been no advertisement, solicitation, invitation or inducement of any kind from us;</li>
+      <li>the information on this website is for general information only and is not legal advice; and</li>
+      <li>using this website or contacting us through it does not create an advocate-client relationship.</li>
+    </ul>
+    <p>Please read the full <a href="/disclaimer">Disclaimer</a>, <a href="/privacy-policy">Privacy Policy</a> and <a href="/terms-of-use">Terms of Use</a>.</p>
+    <label class="gate-ck"><input type="checkbox" id="gate-stats"><span>Allow analytics cookies (Google Analytics), used only to count visits by page and region. Optional; the site works fully without them.</span></label>
+    <p class="gate-act"><button type="button" class="btn" id="gate-ok" onclick="mcAgree()">I agree</button> <a class="gate-out" href="https://www.google.com/">I do not agree, leave the site</a></p>
+  </div>
+</div>
 <header class="site">
   <div class="wrap bar">
     <a class="brand" href="/" aria-label="Millennium Chambers home"><span class="mark" aria-hidden="true">MC</span><span>Millennium Chambers</span></a>
@@ -215,7 +231,7 @@ def page(slug, title, description, body, h1, *, schema_extra=None, image=None, l
         <li><a href="/business-registrations-licences-india">Registrations &amp; licences</a></li>
         <li><a href="/startup-insights">Startup Insights</a></li>
         <li><a href="{FIRM['linkedin_firm']}">LinkedIn</a> · <a href="{FIRM['youtube']}">YouTube</a></li>
-        <li><a href="/disclaimer">Disclaimer</a> · <a href="/privacy-policy">Privacy</a> · <a href="/terms-of-use">Terms</a></li>
+        <li><a href="/disclaimer">Disclaimer</a> · <a href="/privacy-policy">Privacy</a> · <a href="/terms-of-use">Terms</a> · <button type="button" class="linkbtn" onclick="mcGate(true)">Cookie settings</button></li>
       </ul>
     </div>
   </div>
@@ -238,15 +254,21 @@ def page(slug, title, description, body, h1, *, schema_extra=None, image=None, l
     <input id="h-email" autocomplete="email" required>
     <label for="h-msg">Your question</label>
     <textarea id="h-msg" rows="4" required placeholder="Briefly describe what you need help with"></textarea>
+    <input type="text" id="h-hp" name="_honey" tabindex="-1" autocomplete="off" aria-hidden="true" class="hp">
+    <label class="ck"><input type="checkbox" id="h-ok" required><span>I agree that Millennium Chambers may use these details only to reply to my query, as set out in the <a href="/privacy-policy">Privacy Policy</a>.</span></label>
     <button type="submit" class="btn" id="h-send">Send</button>
     <p class="help-alt" id="h-status">Or WhatsApp <a href="{FIRM['wa']}">{FIRM['phone']}</a>. Your message goes to <span id="h-to">{FIRM['email']}</span>.</p>
     <p class="note">Please do not share confidential details here. Contacting us does not create an advocate-client relationship.</p>
   </form>
 </div>
 <script>
+function mcGate(o){{var g=document.getElementById('gate');if(o){{try{{var a=JSON.parse(localStorage.getItem("mc_agree")||"null");document.getElementById('gate-stats').checked=!!(a&&a.stats);}}catch(e){{}}document.documentElement.classList.remove('agreed');document.getElementById('gate-ok').focus();}}}}
+function mcAgree(){{var s=document.getElementById('gate-stats').checked;try{{localStorage.setItem("mc_agree",JSON.stringify({{t:Date.now(),stats:s}}));}}catch(e){{}}gtag('consent','update',{{analytics_storage:s?'granted':'denied'}});document.documentElement.classList.add('agreed');}}
+if(!document.documentElement.classList.contains('agreed')){{var gb=document.getElementById('gate-ok');if(gb)gb.focus();}}
+document.addEventListener('keydown',function(e){{if(e.key==='Tab'&&!document.documentElement.classList.contains('agreed')){{var f=document.querySelectorAll('#gate a,#gate button,#gate input');if(!f.length)return;var x=f[0],y=f[f.length-1];if(e.shiftKey&&document.activeElement===x){{e.preventDefault();y.focus();}}else if(!e.shiftKey&&document.activeElement===y){{e.preventDefault();x.focus();}}else if(!document.getElementById('gate').contains(document.activeElement)){{e.preventDefault();x.focus();}}}}}});
 function mcHelp(o){{var d=document.getElementById('help'),b=document.querySelector('.help-fab');if(o===undefined)o=d.hidden;d.hidden=!o;b.setAttribute('aria-expanded',o);if(o)document.getElementById('h-topic').focus();}}
 document.addEventListener('change',function(e){{if(e.target.id==='h-topic')document.getElementById('h-to').textContent=e.target.value;}});
-function mcSend(e){{e.preventDefault();var t=document.getElementById('h-topic'),n=document.getElementById('h-name').value.trim(),c=document.getElementById('h-email').value.trim(),m=document.getElementById('h-msg').value.trim(),st=document.getElementById('h-status'),btn=document.getElementById('h-send');
+function mcSend(e){{e.preventDefault();if(document.getElementById('h-hp').value)return false;var t=document.getElementById('h-topic'),n=document.getElementById('h-name').value.trim(),c=document.getElementById('h-email').value.trim(),m=document.getElementById('h-msg').value.trim(),st=document.getElementById('h-status'),btn=document.getElementById('h-send');
 var sub=t.options[t.selectedIndex].text+' - website query from '+n;
 function fallback(){{location.href='mailto:'+t.value+'?subject='+encodeURIComponent(sub)+'&body='+encodeURIComponent(m+'\\n\\n'+n+' ('+c+')');}}
 btn.disabled=true;btn.textContent='Sending...';

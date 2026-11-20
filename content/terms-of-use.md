@@ -1,12 +1,16 @@
 # Terms of Use
 
-Last updated: 27 October 2026
+Last updated: 20 November 2026
 
-By accessing or using [www.millenniumchambers.in](http://www.millenniumchambers.in), you agree to these Terms of Use, our Disclaimer and our Privacy Policy. If you do not agree, please do not use this website.
+By accessing or using [www.millenniumchambers.in](https://www.millenniumchambers.in), you agree to these Terms of Use, our Disclaimer and our Privacy Policy. If you do not agree, please do not use this website.
 
 ### Permitted Use
 
-You may use this website only for lawful, personal and informational purposes. You must not copy, scrape or republish its content, attempt to gain unauthorised access to it, introduce malicious code, or use it in any way that could damage the website or the reputation of Millennium Chambers.
+You may use this website only for lawful, personal and informational purposes. You may quote short extracts with a link to the source page, but you must not republish whole pages or use the content commercially without permission, attempt to gain unauthorised access to it, introduce malicious code, or use it in any way that could damage the website or the reputation of Millennium Chambers.
+
+### Disclaimer acceptance and cookies
+
+On your first visit you are asked to accept our Disclaimer, which reflects the Bar Council of India's rules on advocates' websites, and to choose whether to allow analytics cookies. Both are explained in the Disclaimer and Privacy Policy.
 
 ### No Professional Engagement
 

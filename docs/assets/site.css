@@ -164,3 +164,20 @@ footer li{margin:5px 0}
 .help .btn{margin-top:12px;width:100%;cursor:pointer;font:600 15.5px var(--sans)}
 .help-alt{font-size:14px;color:var(--ink-2);margin:10px 0 4px}
 .help .note{font-size:13px;margin:4px 0 0}
+
+/* Bar Council disclaimer gate (shown until the visitor clicks "I agree") */
+.gate{position:fixed;inset:0;z-index:100;background:rgba(20,20,22,.72);display:flex;align-items:center;justify-content:center;padding:16px}
+.agreed .gate{display:none}
+.gate-box{background:#fff;max-width:620px;width:100%;max-height:calc(100vh - 32px);overflow:auto;border-top:4px solid var(--gold);padding:22px 24px;font-size:15.5px;line-height:1.55;box-shadow:0 18px 48px rgba(0,0,0,.3)}
+.gate-h{font:600 22px var(--serif,Georgia,serif);margin:0 0 8px}
+.gate-box ul{margin:8px 0 12px;padding-left:20px}
+.gate-box li{margin-bottom:6px}
+.gate-ck{display:flex;gap:8px;align-items:flex-start;font-size:14px;color:var(--ink-2);background:var(--paper-2);padding:10px 12px;margin:12px 0}
+.gate-ck input{margin-top:4px}
+.gate-act{display:flex;flex-wrap:wrap;gap:14px;align-items:center;margin:14px 0 0}
+.gate-out{font-size:14px;color:var(--muted)}
+.linkbtn{background:none;border:0;padding:0;font:inherit;color:inherit;text-decoration:underline;cursor:pointer}
+.help .ck{display:flex;gap:8px;align-items:flex-start;font-size:13.5px;font-weight:400;margin:8px 0}
+.help .ck input{width:auto;margin-top:3px}
+.hp{position:absolute!important;left:-9999px!important;width:1px;height:1px;opacity:0}
+.gate .btn{cursor:pointer;font:600 15.5px var(--sans)}

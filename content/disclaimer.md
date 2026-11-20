@@ -1,6 +1,6 @@
 # Disclaimer
 
-Please read this disclaimer before using this website. By accessing [www.millenniumchambers.in](http://www.millenniumchambers.in), you confirm that you have read, understood and accepted the terms below.
+Please read this disclaimer before using this website. By accessing [www.millenniumchambers.in](https://www.millenniumchambers.in), you confirm that you have read, understood and accepted the terms below.
 
 ### Bar Council of India Rules
 
@@ -20,7 +20,7 @@ Please do not send confidential or time-sensitive information through this websi
 
 ### Accuracy and Limitation of Liability
 
-While reasonable care is taken in preparing the content of this website, Millennium Chambers makes no representation or warranty as to its accuracy, completeness or currency. Millennium Chambers, its partners and associates shall not be liable for any loss or damage arising from any action taken or not taken on the basis of the content of this website.
+While reasonable care is taken in preparing the content of this website, Millennium Chambers makes no representation or warranty as to its accuracy, completeness or currency. Millennium Chambers and its advocates and staff shall not be liable for any loss or damage arising from any action taken or not taken on the basis of the content of this website.
 
 ### Third-Party Links
 
@@ -28,7 +28,11 @@ This website may contain links to third-party websites and social media pages. T
 
 ### Intellectual Property
 
-All content on this website, including text, the Millennium Chambers name and logo, is the property of Millennium Chambers. It may not be copied, reproduced or used for commercial purposes without prior written permission.
+All original content on this website, including text and the Millennium Chambers name and logo, belongs to Millennium Chambers. Photographs are used under the Unsplash License, and video thumbnails are from YouTube. It may not be copied, reproduced or used for commercial purposes without prior written permission.
+
+### Particulars of the Advocate
+
+This website is maintained by Varun Bhutani, Advocate, enrolled with the Bar Council of Delhi in December 2018 (Enrolment No. D/9450/2018), practising as Millennium Chambers, 325H, Sector 38, Gurugram, Haryana 122001.
 
 ### Governing Law and Jurisdiction
 

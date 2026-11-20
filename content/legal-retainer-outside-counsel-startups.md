@@ -34,7 +34,7 @@ Seed to Series B startups, family-run and mid-sized companies, NBFCs and fintech
 Per-matter work suits a single transaction or dispute. A retainer suits a company with steady legal work, because the lawyer already knows the business and nothing waits for a fresh engagement each time.
 
 **When does a company need a full-time in-house lawyer instead?**
-When contract volume, regulatory filings or litigation fill a working week. Until then a retainer usually costs less and gives access to more senior experience.
+When contract volume, regulatory filings or litigation fill a working week. Until then, many companies use a retainer or engage a lawyer per matter.
 
 **Can the retainer work alongside an existing law firm or company secretary?**
 Yes. The retainer often manages outside firms on specialised matters and works with the company secretary and chartered accountant on filings.

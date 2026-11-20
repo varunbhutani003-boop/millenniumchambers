@@ -1,25 +1,74 @@
 # Privacy Policy
 
-Last updated: 27 October 2026
+Last updated: 20 November 2026
 
-This Privacy Policy explains how Millennium Chambers ("we", "us") collects, uses and protects personal data through [www.millenniumchambers.in](http://www.millenniumchambers.in), in line with the Digital Personal Data Protection Act, 2023 and the Information Technology Act, 2000.
+This Privacy Policy explains how Millennium Chambers, the legal practice of Advocate Varun Bhutani at 325H, Sector 38, Gurugram, Haryana 122001 ("we", "us"), collects, uses and protects personal data through [www.millenniumchambers.in](https://www.millenniumchambers.in). It is written in line with the Digital Personal Data Protection Act, 2023, the Digital Personal Data Protection Rules, 2025, the Information Technology Act, 2000 and the rules made under it.
 
-### Information We Collect
+### What we collect, and why
 
-You can browse this website without giving us any personal data. We collect only the information you choose to send us, such as your name, email address, phone number, the details of your query and, for internship applicants, your CV. Our website host (GitHub Pages) may automatically log technical information such as your IP address and browser type, and we use Google Analytics to count visits by page and region through cookies. Visitor statistics are seen only by us.
+You can browse this website without giving us any personal data. We collect only the following.
 
-### How We Use Your Information
+| Personal data | Where it comes from | Purpose |
+|---|---|---|
+| Name, email address or phone number, and the text of your question | The "Need help?" form, or an email or WhatsApp message you send us | To reply to your query and carry out a conflict check before any engagement |
+| CV and covering note | Internship or job applications sent to our email | To assess your application |
+| Billing contact details | Invoice-related emails | To issue and follow up invoices |
+| Visit statistics (pages viewed, approximate region, device and browser type) | Google Analytics, only if you allow analytics cookies | To understand which pages are useful |
+| IP address and browser type in server logs | Our website host, GitHub Pages | Security and keeping the site running |
 
-We use your information only to respond to your enquiry, carry out conflict checks, evaluate internship applications and meet our legal and professional obligations. By sending us your information, you consent to its use for these purposes. We do not sell, rent or trade personal data, and we do not use it for marketing without your consent.
+We do not ask for, and ask you not to send, confidential case details, identity documents or financial account information through this website.
 
-### Sharing, Retention and Security
+### Consent
 
-We share personal data only with service providers we rely on to run this website and our email (such as GitHub, Google and FormSubmit, which delivers messages sent through the website's query form to our email), or where required by law, a court or a regulator. We keep personal data only for as long as needed for the purpose it was collected; internship applications are deleted within 12 months unless the applicant is engaged. We use reasonable safeguards to protect your data, but no transmission over the internet is completely secure.
+We process the personal data you send us on the basis of your consent, which you give by ticking the consent box on the form or by writing to us, and for the purpose stated above. You may withdraw consent at any time by writing to [info@millenniumchambers.in](mailto:info@millenniumchambers.in). Withdrawal does not affect processing already carried out, and we may still keep data where the law requires it.
 
-### Your Rights and Grievance Redressal
+### Cookies
 
-Subject to applicable law, you may ask to access, correct, update or erase your personal data, withdraw your consent, or nominate another person to exercise these rights on your behalf. For any such request or grievance, write to our Grievance Officer, Varun Bhutani, at [info@millenniumchambers.in](mailto:info@millenniumchambers.in). We will respond within the time prescribed by law. You may also approach the Data Protection Board of India.
+This website uses no advertising or tracking cookies. If, and only if, you tick "Allow analytics cookies" in the notice shown on your first visit, Google Analytics sets the cookies `_ga` and `_ga_<ID>` (stored for up to two years) to count visits. If you do not tick it, these cookies are not set, and Google receives only cookieless signals with no identifier. Your choice is stored in your browser for 30 days, and you can change it at any time through "Cookie settings" at the foot of every page. The site also stores a small record in your browser that you have accepted the disclaimer.
 
-### Changes to This Policy
+### Who we share data with
+
+We do not sell, rent or trade personal data, and we do not use it for marketing. We share it only with service providers who help us run this website and our email, for the purposes above:
+
+- **GitHub, Inc.** (website hosting), United States
+- **Google LLC** (Gmail and, if you allow it, Google Analytics), United States
+- **FormSubmit** (delivers messages from the website form to our email)
+- **ImprovMX** (forwards email sent to our millenniumchambers.in addresses to our inbox)
+
+Because these providers may store data outside India, your personal data may be transferred to and processed in other countries, subject to any restriction notified by the Government of India under section 16 of the DPDP Act. We may also disclose personal data where required by law, a court, a regulator or the Bar Council.
+
+### How long we keep it
+
+Website queries that do not lead to an engagement are deleted within 12 months. Internship and job applications are deleted within 12 months unless the applicant is engaged. Records of an engagement are kept for as long as professional and legal obligations require. Analytics data is kept for the period set in our Google Analytics account, not longer than 14 months.
+
+### Security
+
+We use reasonable safeguards, including HTTPS across the whole site and access-controlled email accounts. No transmission over the internet is completely secure, which is one reason we ask you not to send confidential details through the website.
+
+### Children
+
+This website is not directed at children. We do not knowingly collect personal data of anyone under 18. If you are under 18, please do not send us personal data through this website without the involvement of a parent or lawful guardian.
+
+### Your rights
+
+Subject to applicable law, you may ask us to:
+
+- tell you what personal data we hold about you and how it is used;
+- correct, complete or update it;
+- erase it where it is no longer needed;
+- withdraw your consent; and
+- nominate another person to exercise these rights on your behalf in the event of your death or incapacity.
+
+### Grievance Officer
+
+For any request or complaint about your personal data, contact our Grievance Officer:
+
+**Varun Bhutani**, Managing Advocate, Millennium Chambers
+325H, Sector 38, Gurugram, Haryana 122001
+Email: [info@millenniumchambers.in](mailto:info@millenniumchambers.in)
+
+We will acknowledge your request promptly and resolve it within 30 days. If you are not satisfied with our response, you may approach the Data Protection Board of India.
+
+### Changes to this policy
 
 We may update this Privacy Policy from time to time. The updated version will be posted on this page with a revised date.

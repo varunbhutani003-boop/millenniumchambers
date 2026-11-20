@@ -14,7 +14,7 @@ Record each founder's role and title, whether they will work full-time, and whic
 
 ### 3. Intellectual property
 
-Code, brand names, designs and content created for the business should belong to the company. Under Section 19 of the Copyright Act, 1957, an assignment of copyright must be in writing and signed by the assignor, and should identify the work, the rights assigned, the duration and the territory. If the duration is not stated it is deemed to be five years, and if the territory is not stated it is presumed to be India. Each founder, and any early freelancer, should therefore sign a clear written IP assignment in favour of the company. Trademarks should be filed in the company's name (see our[trademark registration guide for startups](/trademark-registration-startups-india)).
+Code, brand names, designs and content created for the business should belong to the company. Under Section 19 of the Copyright Act, 1957, an assignment of copyright must be in writing and signed by the assignor, and should identify the work, the rights assigned, the duration and the territory. If the duration is not stated it is deemed to be five years, and if the territory is not stated it is presumed to be India. Each founder, and any early freelancer, should therefore sign a clear written IP assignment in favour of the company. Trademarks should be filed in the company's name (see our [trademark registration guide for startups](/trademark-registration-startups-india)).
 
 ### 4. Confidentiality, non-compete and non-solicitation
 
