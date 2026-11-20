@@ -521,7 +521,7 @@ def build_extras(pages, titles):
 def main():
     pages = json.load(open(os.path.join(ROOT, "pages.json")))
     for item in os.listdir(OUT):
-        if item in ("assets", "CNAME", "favicon.ico"):
+        if item in ("assets", "CNAME", "favicon.ico", "BingSiteAuth.xml"):
             continue
         p = os.path.join(OUT, item)
         shutil.rmtree(p) if os.path.isdir(p) else os.remove(p)
