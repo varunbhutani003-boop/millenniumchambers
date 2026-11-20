@@ -55,6 +55,7 @@ GUIDES = [
     ("labour-codes-startups-india-guide", "The Labour Codes", "What changed on 21 November 2025 and what startups must do."),
     ("trademark-registration-startups-india", "Trademark registration", "Search, class, TM-A filing, examination, opposition and renewal."),
     ("msme-delayed-payment-recovery-msmed-act", "MSME payment recovery", "The 45-day rule, interest and the MSE Facilitation Council."),
+    ("non-compete-clause-india-section-27-startups", "Non-compete clauses", "Section 27: what startups can enforce during and after employment."),
     ("reply-to-legal-notice-gurugram", "Replying to a legal notice", "Timelines, what a reply contains and the admission risk."),
     ("licences-gurugram-startup-first-90-days", "Licences in the first 90 days", "The order of registrations for a new Gurugram startup."),
     ("mca-filings-after-company-incorporation-india", "MCA filings after incorporation", "INC-20A, AOC-4, MGT-7A and what a small company can file itself."),
